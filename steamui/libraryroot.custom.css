@@ -2226,10 +2226,10 @@ body.modals_BodyNoScrollDialog_105OB {
   object-fit: cover;
   max-width: 1660px;
   position: relative;
-  -webkit-mask-image: url(/images/test_hero_image_mask.png);
+  -webkit-mask-image: none;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
-  mask-image: url(/images/test_hero_image_mask.png);
+  mask-image: none;
   mask-repeat: no-repeat;
   mask-size: 100% 100%; }
   .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV, .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlur_HSQWw {
