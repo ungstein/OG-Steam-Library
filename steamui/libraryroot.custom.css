@@ -348,7 +348,7 @@
   color: #c9bdf7; }
 
 .miniprofile_miniProfileContent_1xTAT .miniprofile_playerContent_2-pwJ .miniprofile_persona_3c5GO .miniprofile_personaName_qiP8a.miniprofile_hasNickname_2TAWS {
-  color: #ffffff80;
+  color: var(--Label);
   font-size: 14px; }
 
 .miniprofile_miniProfileContent_1xTAT .miniprofile_playerContent_2-pwJ .miniprofile_persona_3c5GO .miniprofile_personaName_qiP8a.miniprofile_hasNickname_2TAWS .miniprofile_personaNameLabel_2VUw8 {
@@ -1060,7 +1060,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_DisabledItem_oUzYn, .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_DisabledItem_oUzYn:hover, .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_DisabledItem_oUzYn:not(.pagedsettings_Active_2DpXj):hover {
     color: #414141; }
   .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr:not(.pagedsettings_Active_2DpXj):hover {
-    color: #ffffff80ccc; }
+    color: var(--Label); }
   .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
     color: #fff;
     cursor: default; }
@@ -2093,7 +2093,7 @@ body.modals_BodyNoScrollDialog_105OB {
     padding: 6px 0px;
     opacity: .5; }
   .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Label_1VoVz {
-    color: #919191;
+    color: var(--Label);
     font-size: 13px;
     margin-left: 5px;
     line-height: 24px;
@@ -3478,7 +3478,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
     background: var(--GreenBG);
-    color: #ffffff80;
+    color: var(--Label);
     cursor: default; }
 
 .appactionbutton_PlayButton_3ydig {
@@ -3529,7 +3529,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonThrobberPadding_k1-BH {
     margin-right: 16px; }
   .appactionbutton_Disabled_1Pb6P .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
-    color: #ffffff80; }
+    color: var(--Label); }
   .appactionbutton_PlayButton_3ydig svg {
     width: 20px;
     flex-shrink: 0;
@@ -3675,7 +3675,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   color: #8277b1; }
 
 .online .personanameandstatus_playerName_nOdcT {
-  color: #ffffff80cd5;
+  color: var(--Label);
   color: #6dcff6; }
 
 .online .personanameandstatus_richPresenceLabel_2Ri00,
@@ -3792,10 +3792,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   display: none; }
 
 .ChatTabs .personanameandstatus_compactView_3bbRZ .offline .personanameandstatus_statusAndName_4ZTzG {
-  color: #ffffff80ccc; }
+  color: var(--Label); }
 
 .ChatTabs .personanameandstatus_compactView_3bbRZ .offline .personanameandstatus_richPresenceLabel_2Ri00 {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .titleBarContainer .currentUserContainer .personanameandstatus_richPresenceLabel_2Ri00 {
   margin-top: -1px;
@@ -3965,7 +3965,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   cursor: pointer;
   font-size: 13px;
-  color: #ffffff80;
+  color: var(--Label);
   margin-top: 5px; }
   button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
     color: #aaa; }
@@ -3995,7 +3995,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
 
 .appdetailsfriendssection_LoggedOut_1pkru {
   font-size: 13px;
-  color: #ffffff80;
+  color: var(--Label);
   cursor: pointer; }
 
 .appdetailsfriendssection_PlaytimeSection_1s3b9 {
@@ -4180,7 +4180,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   user-select: none;
   cursor: pointer;
   font-size: 13px;
-  color: #ffffff80; }
+  color: var(--Label); }
   .appdetailsplaysection_GameInfoButton_2v1XD .appdetailsplaysection_Arrow_2bjCB {
     margin-left: 10px;
     margin-top: 5px;
@@ -4238,7 +4238,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     stroke: #67b3ff;
     fill: #67b3ff; }
   .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 24px;
     line-height: 12px;
     margin-top: -1px;
@@ -4596,7 +4596,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   padding: 5px 0px 2px 8px;
   /*@include respond-to(narrow-right-panel) { width: 100%; }*/ }
   .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-    color: #ffffff80;
+    color: var(--Label);
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 4px;
@@ -4624,7 +4624,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
       padding: 18px;
       background: none; }
   .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
-    color: #ffffff80;
+    color: var(--Label);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -4648,7 +4648,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_ActorName_1t1iy:hover {
       text-decoration: none; }
     .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq a:-webkit-any-link {
-      color: #ffffff80; }
+      color: var(--Label); }
     .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq a:hover {
       color: #fff;
       cursor: pointer; }
@@ -4667,8 +4667,8 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
       opacity: 0;
       cursor: pointer; }
       .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_DeleteButton_djC4r:hover .appactivityday_DeleteUserNews_1Ur_j {
-        fill: #ffffff80CCC;
-        stroke: #ffffff80CCC; }
+        fill: var(--Label);
+        stroke: var(--Label); }
       .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_DeleteButton_djC4r .appactivityday_DeleteUserNews_1Ur_j {
         width: auto;
         height: inherit;
@@ -4888,7 +4888,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
         height: 64px; }
   .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
     transition: all 0.25s;
-    color: #ffffff80;
+    color: var(--Label);
     margin-top: 8px;
     font-size: 16px; }
   .appactivityday_VideoCarousel_dUAJi .appactivityday_CarouselThumbs_1tRKR {
@@ -4927,7 +4927,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   min-height: 182px;
   margin-bottom: 26px;
   background-color: var(--GreenBG);
-  color: #ffffff80;
+  color: var(--Label);
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -4971,7 +4971,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   color: #ccc; }
 
 .appactivityday_PartnerEventLargeImage_Summary_3zwBR {
-  color: #ffffff80;
+  color: var(--Label);
   font-size: 13px;
   position: relative;
   z-index: 1;
@@ -5032,7 +5032,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   color: #ccc; }
 
 .appactivityday_PartnerEventMediumImage_Summary_Ru7OB {
-  color: #ffffff80;
+  color: var(--Label);
   font-size: 13px;
   position: relative;
   padding-top: 10px;
@@ -5115,7 +5115,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   flex-direction: column; }
 
 .appactivityday_PartnerEventTextOnly_LimitedSummary_2OrhE {
-  color: #ffffff80;
+  color: var(--Label);
   padding: 10px 0px;
   /*display: -webkit-box;
 	-webkit-line-clamp: 2;
@@ -5133,13 +5133,13 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   font-size: 12px; }
 
 .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appactivityday_PartnerEventTextOnly_SubTitle_1WX1k {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appactivityday_PartnerEventType_1ujzu {
-  color: #ffffff80;
+  color: var(--Label);
   font-size: 13px;
   text-transform: uppercase;
   margin-right: 4px;
@@ -5230,7 +5230,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   font-size: 13px;
   overflow: hidden;
   word-wrap: break-word;
-  color: #ffffff80; }
+  color: var(--Label); }
   .appactivityday_ReviewText_3ZTUR img {
     width: 100%; }
 
@@ -5256,7 +5256,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 
 .appactivityday_WishlistLink_3698j {
   text-decoration: none;
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appactivityday_ReviewDescriptionRecommended_1zQfK {
   color: #fff;
@@ -5313,10 +5313,10 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   justify-content: center; }
   .appactivityday_BadgeInfo_36fG0 .appactivityday_BadgeName_rmU5g {
     font-size: 16px;
-    color: #ffffff80; }
+    color: var(--Label); }
   .appactivityday_BadgeInfo_36fG0 .appactivityday_BadgeLevel_1p820 {
     font-size: 14px;
-    color: #ffffff80; }
+    color: var(--Label); }
 
 .remainderlist_InnerContainer_1IIKw {
   width: 100%;
@@ -5392,7 +5392,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Desc_2gLHb {
       flex-grow: 1 1 auto;
       font-weight: 300;
-      color: #ffffff80;
+      color: var(--Label);
       font-size: 13px;
       line-height: 16px;
       display: -webkit-box;
@@ -5540,7 +5540,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_TopSection_1LRR7 .appdetailsachievementssection_TextSection_1s_9c {
       font-weight: 300;
       flex-grow: 1;
-      color: #ffffff80;
+      color: var(--Label);
       font-size: 13px;
       padding: 16px 16px 16px 4px; }
       .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_TopSection_1LRR7 .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
@@ -5552,7 +5552,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     box-sizing: border-box;
     background: linear-gradient(to bottom, rgba(24, 26, 30, 0.7) 5%, rgba(24, 26, 30, 0.4) 95%);
     font-size: 13px;
-    color: #ffffff80; }
+    color: var(--Label); }
     .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_Unlocked_2KA0p .appdetailsachievementssection_RareLabel_3aoiM {
       color: #e4a74a; }
 
@@ -5570,18 +5570,18 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     top: 2px; }
 
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appdetailsachievementssection_GlobalStatLabel_1LNAL {
   text-decoration: underline;
-  color: #ffffff80;
+  color: var(--Label);
   cursor: pointer;
   align-self: flex-end; }
   .appdetailsachievementssection_GlobalStatLabel_1LNAL:hover {
-    color: #ffffff80; }
+    color: var(--Label); }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
   height: 8px;
@@ -6503,7 +6503,7 @@ img.emoticon_emoticon_AB86v {
       border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
       .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
         margin: 0px;
-        color: #ffffff80; }
+        color: var(--Label); }
         .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
 		  background: var(--GreenBG);
           background-position: 25%;
@@ -8279,7 +8279,7 @@ body.in_global_drag .title-area {
     width: 20px;
     height: 20px;
     background: #1d2227;
-    color: #ffffff80;
+    color: var(--Label);
     padding: 4px;
     opacity: 0.5;
     cursor: pointer; }
@@ -8289,8 +8289,8 @@ body.in_global_drag .title-area {
       opacity: 1; }
     .comment_thread_ActivityCommentThreadMinimized_EhWKR .comment_thread_DeleteButton_n-qlR .comment_thread_DeleteUserNews_KVWDb {
       margin: -6px;
-      fill: #ffffff80;
-      stroke: #ffffff80; }
+      fill: var(--Label);
+      stroke: var(--Label); }
   .comment_thread_ActivityCommentThreadMinimized_EhWKR .comment_thread_MaximizeButton_2ox3w {
     width: 28px;
     height: 28px;
@@ -8338,7 +8338,7 @@ body.in_global_drag .title-area {
   .comment_thread_ActivityCommentThread_39nna .comment_thread_MakeCommentsVisible_FPxfN {
     margin: 8px 0;
     user-select: none;
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 13px;
     border-radius: 2px;
     background-color: rgba(50, 57, 65, 0.5);
@@ -8465,9 +8465,9 @@ body.in_global_drag .title-area {
           .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa:hover {
             background-color: #323941; }
             .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa:hover .comment_thread_CommentRating_1L2eb.comment_thread_CommentRating_1L2eb, .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa:hover .comment_thread_ThumbsUpComment_1DwcI.comment_thread_ThumbsUpComment_1DwcI {
-              color: #ffffff80ccc;
-              fill: #ffffff80ccc;
-              stroke: #ffffff80ccc;
+              color: var(--Label);
+              fill: var(--Label);
+              stroke: var(--Label);
               opacity: 1; }
             .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa:hover .comment_thread_CommentRating_1L2eb.comment_thread_CommentRating_1L2eb, .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa:hover .comment_thread_ThumbsUpComment_1DwcI.comment_thread_ThumbsUpComment_1DwcI.comment_thread_UserRated_2gr2M {
               fill: #2a80ad;
@@ -8532,18 +8532,18 @@ body.in_global_drag .title-area {
       .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn,
       .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc,
       .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9 {
-        color: #ffffff80ccc; }
+        color: var(--Label); }
       .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
       .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
       .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX {
         width: auto;
         height: inherit;
-        fill: #ffffff80ccc;
-        stroke: #ffffff80ccc; }
+        fill: var(--Label);
+        stroke: var(--Label); }
       .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path,
       .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path,
       .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path {
-        fill: #ffffff80ccc; }
+        fill: var(--Label); }
   .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt {
     margin-bottom: 1px;
     margin-top: -1px; }
@@ -9235,7 +9235,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     padding: 10px;
     flex: 1 0 auto; }
   .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Description_xsBpz {
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 14px;
     line-height: 20px;
     text-overflow: ellipsis;
@@ -9254,7 +9254,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   background: none;
   display: flex;
   flex-direction: row;
-  color: #ffffff80;
+  color: var(--Label);
   align-items: center;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -9467,10 +9467,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeName_3ca2d {
     font-size: 14px;
     font-weight: 300;
-    color: #ffffff80; }
+    color: var(--Label); }
   .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM {
     font-size: 14px;
-    color: #ffffff80; }
+    color: var(--Label); }
 
 .appdetailstradingcardssection_CardsSection_21DlI {
   display: flex;
@@ -9482,7 +9482,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailstradingcardssection_CardsLeft_2H1Mi {
   font-size: 13px;
-  color: #ffffff80;
+  color: var(--Label);
   margin-bottom: 10px; }
   .appdetailstradingcardssection_CardsLeft_2H1Mi.appdetailstradingcardssection_CanLevelUp_3B2sO {
     color: #fff;
@@ -9698,7 +9698,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   display: flex;
   flex-direction: row; }
   .appdetailsactivitysection_Settings_1v7gR .appdetailsactivitysection_SettingsLink_cA3Oh {
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 13px;
     padding-left: 12px;
     cursor: pointer; }
@@ -9926,7 +9926,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Disc_17Yl1 {
           background: linear-gradient(to right, rgba(44, 49, 51, 0.842) 0%, transparent 100%);
           padding-left: 6px;
-          color: #ffffff80;
+          color: var(--Label);
           margin-top: 12px;
           margin-bottom: 6px;
           font-size: 15px; }
@@ -9954,7 +9954,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
             text-align: right;
             padding-right: 4px;
             font-size: 14px;
-            color: #ffffff80;
+            color: var(--Label);
             border-top-right-radius: 3px;
             border-bottom-right-radius: 3px; }
           .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackName_JpRLQ {
@@ -9966,7 +9966,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
             text-align: right;
             padding: 0 8px;
             font-size: 14px;
-            color: #ffffff80; }
+            color: var(--Label); }
 
 .appdetailssoundtrack_AlbumArtworkModal_1xedg {
   border: 2px solid black;
@@ -10084,11 +10084,11 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     margin-left: 16px; }
     .appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_Artist_3NeZL {
       font-weight: 300;
-      color: #ffffff80;
+      color: var(--Label);
       font-size: 14px; }
     .appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_TracksDetails_3Yvj5 {
       font-weight: 300;
-      color: #ffffff80;
+      color: var(--Label);
       font-size: 13px; }
   .appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_Image_3ikOg {
     width: 72px;
@@ -10864,7 +10864,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       color: #8c8c8c; }
     .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentCount_2FYBw {
       margin-left: 4px;
-      color: #ffffff80; }
+      color: var(--Label); }
     .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_UpVotesIcon_2cFKq {
       fill: #8c8c8c;
       width: 24px;
@@ -10881,7 +10881,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-size: 13px;
   overflow: hidden;
   word-wrap: break-word;
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .appdetailsreviewsection_ReviewTextContainer_1jdWx {
   padding-bottom: 12px; }
@@ -11199,7 +11199,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemDesc_3SzXr {
           position: relative;
           font-size: 13px;
-          color: #ffffff80;
+          color: var(--Label);
           overflow: hidden;
           text-overflow: ellipsis;
           max-height: 60px;
@@ -11214,7 +11214,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
           flex-wrap: wrap; }
           .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedLinks_3Mq6s .appdetailsworkshopsection_FeaturedItemLink_YE_jJ {
             font-size: 13px;
-            color: #ffffff80;
+            color: var(--Label);
             cursor: pointer;
             box-sizing: border-box;
             width: fit-content;
@@ -11619,7 +11619,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   align-items: left;
   justify-content: flex-start; }
   .spotlight_MajorEventHeader_1HL2n .spotlight_EventType_3zVyX {
-    color: #ffffff80;
+    color: var(--Label);
     letter-spacing: 1px;
     text-transform: uppercase; }
   .spotlight_MajorEventHeader_1HL2n .spotlight_GameIconAndName_IltgR {
@@ -11701,7 +11701,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  color: #ffffff80;
+  color: var(--Label);
   line-height: 20px; }
 
 .spotlightgameplaysummary_GamePlaySummaryEvents_344wR {
@@ -13320,7 +13320,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     font-size: 12px;
     font-weight: 100;
     text-shadow: 1px 1px 6px #000;
-    color: #ffffff80; }
+    color: var(--Label); }
   .appportrait_FriendsBar_3dncO.appportrait_InFriendsActivity_3ngZC {
     position: absolute;
     transition: all .32s ease-in-out;
@@ -13397,14 +13397,14 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    color: #ffffff80; }
+    color: var(--Label); }
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.Focusable:focus {
       outline: none; }
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown:hover {
       box-shadow: none;
       color: #fff; }
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown.Disabled:hover {
-      color: #ffffff80; }
+      color: var(--Label); }
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
       background-color: transparent;
       padding-left: 6px;
@@ -13482,7 +13482,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 1px;
-  color: #ffffff80;
+  color: var(--Label);
   transition: all .16s ease-in-out; }
   .appgrid_InstalledCheckBox_3S2E4:hover {
     color: #fff; }
@@ -13521,7 +13521,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     border: none;
     height: 3px;
     margin-top: 7px;
-    background: #ffffff80;
+    background: var(--Label);
     box-shadow: inset 0px 11px 8px -10px #131313; }
   div.appgrid_CoverSizeSlider_U4J9B .DialogSlider_Value {
     display: none; }
@@ -13541,7 +13541,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 1px;
-  color: #ffffff80;
+  color: var(--Label);
   text-transform: uppercase; }
 
 .appgrid_CoverSizePickerContainer_2Uoqg {
@@ -16825,7 +16825,7 @@ textarea:-webkit-autofill:focus,
   .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_OtherEvents_MainImageCtn_2qyLP {
     max-height: 189px; }
   .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalSummary_2bTWa {
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 13px;
     position: relative;
     padding-top: 4px;
@@ -16839,7 +16839,7 @@ textarea:-webkit-autofill:focus,
   .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalTitle_B9-wl {
     font-size: 18px;
     font-weight: 300;
-    color: #ffffff80;
+    color: var(--Label);
     line-height: 20px; }
   .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalDescriptionCtn_3CQtW {
     flex-direction: row; }
@@ -17994,7 +17994,7 @@ span.partnersaledisplay_vr_required_1P__h {
   .partnersaledisplay_SaleSectionTabs_1FPIV .partnersaledisplay_SaleSectionTabsTab_3BgHm {
     background-color: black;
     padding: 0px 12px;
-    color: #ffffff80;
+    color: var(--Label);
     font-size: 16px;
     min-width: max-content;
     width: auto;
@@ -18447,7 +18447,7 @@ span.partnersaledisplay_vr_required_1P__h {
     .salehilightplayerembed_VideoThumbnail_h0pph:hover .salehilightplayerembed_VideoPlayButton_2sJlI .SVGIcon_Play {
       fill: #fff; }
   .salehilightplayerembed_VideoPlayButton_2sJlI .SVGIcon_Play {
-    fill: #ffffff80;
+    fill: var(--Label);
     width: 50%;
     height: 50%;
     margin-left: 18px;
@@ -19136,7 +19136,7 @@ span.partnersaledisplay_vr_required_1P__h {
   stroke: #7e7e7e; }
 
 .videoControlButton.ClosedCaptionsActive .SVGIcon_Button.SVGIcon_ClosedCaption path.CCBox {
-  fill: #ffffff80;
+  fill: var(--Label);
   stroke: #000; }
 
 .videoControlButton.ClosedCaptionsActive .SVGIcon_Button.SVGIcon_ClosedCaption path.C1 {
@@ -19830,7 +19830,7 @@ span.partnersaledisplay_vr_required_1P__h {
   display: block; }
 
 .videoContainer .BroadcastDetails .BroadcastDetailsHeader .BroadcastTitle {
-  color: #ffffff80; }
+  color: var(--Label); }
 
 .videoContainer .BroadcastDetails .BroadcastDetailsHeader .AppTitle {
   color: #eceff5; }
@@ -21411,7 +21411,7 @@ textarea {
     white-space: pre-wrap;
     font-size: 12px;
     line-height: 19px;
-    color: #ffffff80; }
+    color: var(--Label); }
   .DialogContent.partnereventdisplay_LunarNewYearOpenEnvelopeVideoDialog_1-Szi .partnereventdisplay_StoryPicture_1ovBW {
     flex: 1;
     min-width: 200px;
@@ -22124,7 +22124,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  color: #ffffff80890;
+  color: var(--Label);
   font-size: 13px;
   position: absolute;
   top: 0;
@@ -22375,7 +22375,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
     margin-right: 4px;
     cursor: pointer; }
     .libraryhomemajorupdates_TopBarTabs_1XmOa .libraryhomemajorupdates_TopBarTab_2QfVi.libraryhomemajorupdates_Selected_1bkIp {
-      background-color: #ffffff80; }
+      background-color: var(--Label); }
 
 .libraryhomemajorupdates_NextUpdateLink_14_Sz {
   text-decoration: underline;
@@ -23483,7 +23483,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
       box-shadow: none;
       color: #fff; }
     .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown.Disabled:hover {
-      color: #ffffff80; }
+      color: var(--Label); }
     .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow {
       width: 14px;
       position: relative;
