@@ -2952,12 +2952,12 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
         margin-left: 4px;
         border-left: 4px solid transparent;
         border-right: 4px solid transparent;
-        border-bottom: 5px solid #969696; }
+        border-bottom: 5px solid var(--Label); }
       .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 .appproperties_TriangleDown_2lnv6 {
         margin-left: 4px;
         border-left: 4px solid transparent;
         border-right: 4px solid transparent;
-        border-top: 5px solid #969696; }
+        border-top: 5px solid var(--Label); }
     .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_Install_2nXS1 {
       display: flex;
       align-items: center;
@@ -3036,13 +3036,13 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     margin-left: 4px;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-bottom: 5px solid #969696;
+    border-bottom: 5px solid var(--Label);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz .appproperties_TriangleDown_2lnv6 {
     margin-left: 4px;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-top: 5px solid #969696;
+    border-top: 5px solid var(--Label);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_Install_2nXS1 {
     display: flex;
@@ -3110,7 +3110,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   flex-direction: column; }
 
 .appproperties_OptionDescription_q2l4w {
-  color: #969696; }
+  color: var(--Label); }
 
 .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
   display: flex;
@@ -3125,7 +3125,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.16); }
   .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc.appproperties_Disabled_3dZxl {
     cursor: default;
-    color: #969696; }
+    color: var(--Label); }
     .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc.appproperties_Disabled_3dZxl:hover {
       box-shadow: none; }
 
@@ -6745,13 +6745,13 @@ button.DialogButton::-moz-focus-inner {
 
 .DialogInputPlaceholder::placeholder,
 .DialogInputPlaceholder::-webkit-input-placeholder {
-  color: #969696;
+  color: var(--Label);
   font-style: italic; }
 
 /* for some reason, mixing these with ::placeholder confuses chrome */
 .DialogInputPlaceholder::-ms-input-placeholder,
 .DialogInputPlaceholder:-ms-input-placeholder {
-  color: #969696;
+  color: var(--Label);
   font-style: italic; }
 
 .PopupFullWindow {
@@ -7062,7 +7062,7 @@ button.DialogButton::-moz-focus-inner {
   user-select: text; }
 
 .DialogBodyText p a {
-  color: #969696;
+  color: var(--Label);
   text-decoration: underline; }
 
 .DialogBodyText p a:hover {
@@ -7074,7 +7074,7 @@ button.DialogButton::-moz-focus-inner {
 .DialogLabel,
 .DialogLabelStrong {
   font-weight: 300;
-  color: #969696;
+  color: var(--Label);
   text-transform: uppercase;
   line-height: 19px;
   font-size: 13px;
@@ -11423,7 +11423,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: 100%;
   padding-left: 8px;
   padding-right: 10px;
-  color: #969696;
+  color: var(--Label);
   font-size: 12px;
   font-weight: 200; }
   .appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_RatingContainer_1E_EN {
@@ -13424,7 +13424,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px; }
       .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow svg {
-        fill: #969696; }
+        fill: var(--Label); }
 
 .appgrid_SortingDropDownContainer_1ZpBQ {
   margin-left: -12px; }
@@ -13469,11 +13469,11 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appgrid_CollectionOptionsRightJustified_3t1pL .SVGIcon_Installed {
     width: 20px;
     height: 20px;
-    fill: #969696;
+    fill: var(--Label);
     margin-right: 8px;
     margin-top: -6px; }
     .appgrid_CollectionOptionsRightJustified_3t1pL .SVGIcon_Installed polyline {
-      stroke: #969696;
+      stroke: var(--Label);
       stroke-width: 12px; }
 
 .appgrid_InstalledCheckBox_3S2E4 {
@@ -13498,7 +13498,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     height: 15px;
     width: 15px;
     background-color: transparent;
-    border: 1px solid #969696;
+    border: 1px solid var(--Label);
     transition: all .16s ease-in-out;
     margin-top: 1px; }
     .appgrid_InstalledCheckBox_3S2E4 .DialogCheckbox svg {
@@ -13555,7 +13555,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .appgrid_CoverSizePickerContainer_2Uoqg .appgrid_CoverSizePicker_3U9BQ {
     width: 20px;
     height: 20px;
-    color: #969696;
+    color: var(--Label);
     text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.2);
     margin-left: 8px;
@@ -13588,7 +13588,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
       .appgrid_CoverSizePickerContainer_2Uoqg .appgrid_CoverSizePicker_3U9BQ.appgrid_Active_2uzBH svg {
         fill: dodgerblue; }
     .appgrid_CoverSizePickerContainer_2Uoqg .appgrid_CoverSizePicker_3U9BQ svg {
-      fill: #969696; }
+      fill: var(--Label); }
 
 .appgrid_TestAppContainer_2Ybdd {
   box-sizing: border-box;
@@ -15718,7 +15718,7 @@ iframe.eventbbcodeyoutubeembed_PreviewYouTubeVideo_2sJoC.eventbbcodeyoutubeembed
   margin: 12px 0px; }
 
 .eventbbcodeparser_Link_29bMZ {
-  color: #969696;
+  color: var(--Label);
   text-decoration: underline; }
   .eventbbcodeparser_Link_29bMZ:hover {
     color: #fff; }
@@ -15990,7 +15990,7 @@ iframe.eventbbcodeparser_MedalTVWidget_1j2vi {
   position: relative; }
 
 .login_AccountPasswordPanel_2LBKJ .DialogCheckbox_Container .DialogToggle_Label {
-  color: #969696;
+  color: var(--Label);
   font-size: 12px;
   line-height: 22px;
   font-weight: 300; }
@@ -16089,7 +16089,7 @@ textarea:-webkit-autofill:focus,
   margin-top: 10px; }
 
 .login_NeedHelpLink_1Mi1l {
-  color: #969696;
+  color: var(--Label);
   margin: 10px 0px 20px 0px;
   font-size: 12px;
   text-decoration: underline;
@@ -16102,7 +16102,7 @@ textarea:-webkit-autofill:focus,
     color: #fff;
     text-decoration-color: #b6b6b6; }
   .login_NeedHelpLink_1Mi1l:visited {
-    color: #969696; }
+    color: var(--Label); }
 
 .login_CreateAccountLink_x0Czn a {
   color: #bfc6d4; }
@@ -16157,7 +16157,7 @@ textarea:-webkit-autofill:focus,
     align-self: center; }
 
 .login_SteamUpsell_3r5LW {
-  color: #969696;
+  color: var(--Label);
   font-size: 12px; }
 
 .login_CreateAccountLink_x0Czn a {
@@ -23377,7 +23377,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L.libraryhomeshowcases_Visible_1XDaf {
       cursor: pointer; }
     .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L polyline {
-      stroke: #969696; }
+      stroke: var(--Label); }
   .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay {
     width: 20px;
     height: 20px;
@@ -23492,7 +23492,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
       margin-left: 6px;
       margin-top: 2px; }
       .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow svg {
-        fill: #969696; }
+        fill: var(--Label); }
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- {
   margin-left: -12px;
@@ -23874,7 +23874,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
 
 body,
 body.shared_common_v6_2Lxgd {
-  color: #969696;
+  color: var(--Label);
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif; }
 
 button {
