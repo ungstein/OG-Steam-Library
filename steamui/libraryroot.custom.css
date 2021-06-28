@@ -9,7 +9,8 @@
 	--BorderDark: #282e22 !important;
 	--OffWhite: #d8ded3 !important;
 	--Maize: #c4b550 !important;
-	--MaizeBG: #91863c !important; }
+	--MaizeBG: #91863c !important;
+	--Label: #a0aa95 !important; }
 
 /* No Bullshit Mode */
 /*
@@ -4679,7 +4680,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     opacity: 1; }
 
 .appactivityday_ActivityPublishedStatus_3ygGw {
-  color: #B1B0B0;
+  color: var(--Label);
   font-size: 15px;
   word-break: break-word;
   display: flex;
@@ -4687,7 +4688,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   .appactivityday_ActivityPublishedStatus_3ygGw .appactivityday_StatusTime_RYyD5 {
     color: #818080; }
   .appactivityday_ActivityPublishedStatus_3ygGw a {
-    color: #B1B0B0; }
+    color: var(--Label); }
     .appactivityday_ActivityPublishedStatus_3ygGw a:hover {
       color: #fff; }
 
@@ -5153,7 +5154,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appactivityday_ActivityRecommendedGame_1-t-G {
   padding: 12px; }
   .appactivityday_ActivityRecommendedGame_1-t-G .appactivityday_RecommendationText_M0CWY {
-    color: #B1B0B0;
+    color: var(--Label);
     font-style: italic; }
   .appactivityday_ActivityRecommendedGame_1-t-G .appactivityday_ReadMoreLink_3PXtj {
     margin-left: 10px;
@@ -6415,7 +6416,7 @@ img.emoticon_emoticon_AB86v {
     border-radius: 4px;
     background: var(--DarkGreenBG);
     box-shadow: inset 0px 0px 4px transparent;
-    color: #b1b0b0;
+    color: var(--Label);
     resize: none;
     font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
     padding: 8px;
@@ -8412,7 +8413,7 @@ body.in_global_drag .title-area {
         word-wrap: break-word;
         min-width: 0; }
         .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentText_3Xbao a {
-          color: #B1B0B0; }
+          color: var(--Label); }
           .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentText_3Xbao a:hover {
             color: #fff; }
       .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH {
@@ -8851,7 +8852,7 @@ body.in_global_drag .title-area {
   border-radius: 4px;
   background: rgba(29, 34, 39, 0.6);
   box-shadow: inset 0px 0px 4px transparent;
-  color: #b1b0b0;
+  color: var(--Label);
   margin-top: 8px;
   resize: none;
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
@@ -9724,7 +9725,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     border: 1px solid #434953;
     outline-width: 0;
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
-    color: #b1b0b0;
+    color: var(--Label);
     margin-top: 8px;
     margin-bottom: 8px;
     resize: none;
