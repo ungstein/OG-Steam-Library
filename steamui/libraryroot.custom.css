@@ -5146,7 +5146,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   transition: all 0.2s ease-out; }
 
 .appactivityday_PartnerEventTypeUpdate_29bW1 {
-  color: #289cff;
+  color: var(--Maize);
   font-size: 16px;
   text-transform: uppercase;
   margin-right: 4px; }
@@ -9738,7 +9738,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       font-style: italic;
       color: #3b444d; }
     .appdetailsactivitysection_StatusInputBox_3Nofi .appdetailsactivitysection_StatusInputTextArea_10oyY :focus {
-      border: 1px solid #289cff; }
+      border: 1px solid var(--Maize); }
 
 .appdetailsactivitysection_StatusControlsRow_1HHZQ {
   display: flex;
@@ -16774,7 +16774,7 @@ textarea:-webkit-autofill:focus,
     color: #fff; }
   .eventrow_HoversEnabled_3o6M8:hover .eventrow_EventSummaryContainer_2GYp4 .eventrow_EventSummaryType_11JXz {
     filter: blur(0);
-    color: #289cff;
+    color: var(--Maize);
     transform: scale(1); }
 
 .eventrow_EventSummaryContainer_2GYp4 {
@@ -21802,7 +21802,7 @@ div.apppartnereventspage_EventDetailsBody_3NW5v {
     .apppartnereventspage_EventTypeAndTimeRow_3bWTO .apppartnereventspage_TimeandPostedBy_2WwG2 .apppartnereventspage_EventType_Udzrp {
       text-transform: uppercase;
       font-weight: 500;
-      color: #289cff; }
+      color: var(--Maize); }
     .apppartnereventspage_EventTypeAndTimeRow_3bWTO .apppartnereventspage_TimeandPostedBy_2WwG2 .apppartnereventspage_PostedBy_2VqeQ {
       margin: 0px 6px;
       color: #868f98; }
@@ -22677,7 +22677,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
       color: #fff; }
     .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j .libraryhomenewupdates_EventSummaryType_1vIly {
       filter: blur(0);
-      color: #289cff;
+      color: var(--Maize);
       transform: scale(1); }
   .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd .libraryhomenewupdates_EventSummaryContainer_3Rb_j {
     position: absolute;
