@@ -885,7 +885,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
     font-size: 12px;
     text-transform: uppercase; }
   .contextmenu_contextMenuItem_1n7Wl.contextmenu_StrongerSeparation_1BNck {
-    border-top-color: dimgray; }
+    border-top-color: var(--Label); }
   .contextmenu_contextMenuItem_1n7Wl.contextmenu_UpperCase_uz1Xm {
     text-transform: uppercase; }
   .contextmenu_contextMenuItem_1n7Wl .SVGIcon_Button {
@@ -10124,7 +10124,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-sizing: border-box;
   width: 100%;
   font-size: 13px;
-  color: #808486;
+  color: var(--Label);
   background-color: transparent; }
   .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_InnerContainer_37mmO {
     padding: 12px;
@@ -10154,7 +10154,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       grid-area: desc; }
     .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1 {
       margin-right: 5px;
-      color: #808486;
+      color: var(--Label);
       max-width: 550px;
       padding-bottom: 12px;
       padding-right: 20px;
@@ -10182,7 +10182,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       margin-right: 5px; }
     .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_LastUpdated_1snWl .appdetailsgameinfopanel_Date_izVv8 {
       display: inline-block;
-      color: #808486; }
+      color: var(--Label); }
       .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_LastUpdated_1snWl .appdetailsgameinfopanel_Date_izVv8.appdetailsgameinfopanel_Recent_1thSK {
         color: #348de6; }
 
@@ -10192,7 +10192,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-bottom: 8px; }
   .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2 {
     margin-right: 5px;
-    color: #808486;
+    color: var(--Label);
     line-height: 16px; }
   .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Association_-9icu {
     display: flex;
@@ -13371,7 +13371,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   /* stylelint-disable selector-class-pattern */
   /* stylelint-enable selector-class-pattern */ }
   .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
-    color: #a0a1a5;
+    color: var(--Label);
     text-transform: uppercase;
     line-height: 18px;
     font-weight: 100;
@@ -13676,7 +13676,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
   user-select: none; }
   .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_CountGamesExcluded_2R_HL {
-    color: #a0a1a5;
+    color: var(--Label);
     text-transform: uppercase;
     font-size: 42px;
     line-height: 38px;
@@ -13688,7 +13688,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     font-size: 30px;
     line-height: 28px; }
   .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_CountGamesExcludedDesc_1MGS3 {
-    color: #a0a1a5;
+    color: var(--Label);
     text-transform: uppercase;
     line-height: 24px;
     font-size: 22px;
@@ -13712,10 +13712,10 @@ div.appgrid_CoverSizeSlider_U4J9B {
     top: -20px;
     right: initial; }
     .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
-      fill: #a0a1a5;
-      stroke: #a0a1a5; }
+      fill: var(--Label);
+      stroke: var(--Label); }
     .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
-      stroke: #a0a1a5; }
+      stroke: var(--Label); }
   .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7 .SVGIcon_ReadyToPlay {
     width: 80px;
     height: 80px;
@@ -13727,7 +13727,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_ReadyToPlayIcon_pCHyk:after {
     position: absolute;
     content: "/";
-    color: #a0a1a5;
+    color: var(--Label);
     font-size: 120px;
     font-style: italic;
     left: 90px;
@@ -13785,7 +13785,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
 	  color: var(--Maize); }
     .collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_SectionCount_3Xgxj {
       margin-left: 8px;
-      color: dimgray;
+      color: var(--Label);
       user-select: none; }
     .collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_Rule_1grg9 {
       flex-grow: 1;
@@ -14224,7 +14224,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   font-size: 16px;
   height: 12px;
   margin: 0px 4px 3px;
-  color: rgba(255, 255, 255, 0.2); }
+  color: var(--Label); }
 
 .gamelistsectionheader_SectionRule_1PxXc {
   box-sizing: border-box;
@@ -14356,11 +14356,11 @@ div.appgrid_CoverSizeSlider_U4J9B {
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg circle {
           stroke: #fff; }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg {
-        fill: dimgray; }
+        fill: var(--Label); }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg g path {
-          fill: dimgray; }
+          fill: var(--Label); }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg circle {
-          stroke: dimgray; }
+          stroke: var(--Label); }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_Installed {
         transform: translateY(-4px); }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_Installed .Catch {
@@ -14428,7 +14428,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
         height: 14px;
         margin-left: 1px; }
       .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.gamelistdropdown_Disabled_1MAuQ, .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.gamelistdropdown_Disabled_1MAuQ:hover {
-        color: dimgray; }
+        color: var(--Label); }
       .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.DialogCheckbox_Container {
         margin-bottom: 0px; }
       .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 .DialogCheckbox {
@@ -14441,7 +14441,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Rule_2kvdT {
     height: 1px;
     margin: 2px 4px;
-    background-color: dimgray; }
+    background-color: var(--Label); }
 
 .gamelistdropdown_ScrollToTop_uE7Pj {
   width: 24px;
@@ -23430,7 +23430,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     transition: opacity 0.2s ease-in-out;
     opacity: 0; }
     .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DeleteButton_3cK5j svg path {
-      stroke: #a0a1a5; }
+      stroke: var(--Label); }
   .libraryhomeshowcases_ShowcaseHeader_23Snl:hover .libraryhomeshowcases_DeleteButton_3cK5j {
     opacity: 1; }
   .libraryhomeshowcases_DragInProgress_2WrQ0 .libraryhomeshowcases_ShowcaseHeader_23Snl:hover .libraryhomeshowcases_DeleteButton_3cK5j {
@@ -23450,7 +23450,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
   /* stylelint-disable selector-class-pattern */
   /* stylelint-enable selector-class-pattern */ }
   .libraryhomeshowcases_CollectionDropDown_1YdRd .libraryhomeshowcases_DropDownLabel_tfg3_ {
-    color: #a0a1a5;
+    color: var(--Label);
     text-transform: uppercase;
     line-height: 18px;
     font-weight: 100;
