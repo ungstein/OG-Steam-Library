@@ -23457,7 +23457,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     letter-spacing: 1px;
     white-space: nowrap; }
   .libraryhomeshowcases_CollectionDropDown_1YdRd .libraryhomeshowcases_CountDisplay_2qm05 {
-    color: #999;
+    color: var(--Label);
     margin-left: 6px;
     font-size: 14px; }
   .libraryhomeshowcases_CollectionDropDown_1YdRd:focus {
