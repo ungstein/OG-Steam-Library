@@ -23540,7 +23540,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
   box-sizing: border-box;
   display: flex;
-  color: #a9a9a9;
+  color: var(--Label);
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 100;
@@ -23558,7 +23558,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     margin-right: 6px; }
     .libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
     .libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle {
-      stroke: #a9a9a9;
+      stroke: var(--Label);
       transition: all .21s ease-in-out; }
   .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
     flex-grow: 1;
