@@ -4331,7 +4331,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   height: 6px;
   width: 80px;
   border-radius: 5px;
-  background-color: var(--DarkGreenBG);
+  background-color: black;
   transition: height .06s ease-in-out, border-radius .06s ease-in-out; }
   .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_DetailsProgressContainer_25YVD {
     height: 2px;
@@ -5586,7 +5586,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
   height: 8px;
   align-self: stretch;
-  background-color: var(--DarkGreenBG);
+  background-color: black;
   border-radius: 3px;
   margin: 6px 0; }
   .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
