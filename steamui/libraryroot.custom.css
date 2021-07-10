@@ -5336,7 +5336,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   overflow-y: hidden; }
 
 .appdetailsachievementssection_InnerContainer_jxCcU {
-  background-color: #1d2227;
+  background-color: var(--DarkGreenBG);
   width: 100%; }
 
 .appdetailsachievementssection_InnerContainerLower_1qtrO {
@@ -5406,7 +5406,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appdetailsachievementssection_AdditionalItem_2aVnD {
   margin-right: 8px;
   cursor: pointer;
-  background-color: #2c3138;
+  background-color: var(--GreenBG);
   height: 48px; }
   .appdetailsachievementssection_AdditionalItem_2aVnD .appdetailsachievementssection_TextSection_1s_9c {
     display: none; }
@@ -5441,7 +5441,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   vertical-align: middle;
   position: relative;
   box-shadow: 0 0 3px #0005;
-  background: linear-gradient(to right, #3b414a 0%, #2c3138 95%); }
+  background: var(--GreenBG); }
 
 .appdetailsachievementssection_Icon_zcasg {
   width: 48px;
@@ -5458,7 +5458,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   .appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF {
     box-shadow: 0px 0px 2px 1px rgba(255, 184, 78, 0.6), 0px 0px 16px 1px rgba(255, 184, 78, 0.4); }
   .appdetailsachievementssection_Icon_zcasg:after {
-    background: linear-gradient(to right, #3b414a 0%, #2c3138 95%);
+    background: linear-gradient(to right, #3b414a 0%, var(--GreenBG) 95%);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -5779,7 +5779,7 @@ img.emoticon_emoticon_AB86v {
 .emoticon_TopDivider_2A8Fl {
   height: 2px;
   width: 90%;
-  background-color: #2b2c2f;
+  background-color: var(--DarkGreenBG);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -5788,7 +5788,7 @@ img.emoticon_emoticon_AB86v {
 .emoticon_BottomDivider_2IZ1K {
   height: 2px;
   width: 90%;
-  background-color: #2b2c2f;
+  background-color: var(--DarkGreenBG);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -5922,7 +5922,7 @@ img.emoticon_emoticon_AB86v {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-bottom: 2px solid #2b2c2f; }
+  border-bottom: 2px solid var(--DarkGreenBG); }
 
 .addonpicker_Tab_2CJ0L {
   width: 32px;
@@ -5999,9 +5999,9 @@ img.emoticon_emoticon_AB86v {
   .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {
     box-sizing: border-box;
     height: 28px;
-    background-color: #2b2c2f; }
+    background-color: var(--DarkGreenBG); }
     .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:hover, .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:focus {
-      background-color: #2b2c2f !important; }
+      background-color: var(--DarkGreenBG) !important; }
 
 .addonpicker_AddonPickerMessage_2wUk7 {
   font-size: 12px;
@@ -8278,7 +8278,7 @@ body.in_global_drag .title-area {
     margin-left: 6px;
     width: 20px;
     height: 20px;
-    background: #1d2227;
+    background: var(--DarkGreenBG);
     color: var(--Label);
     padding: 4px;
     opacity: 0.5;
@@ -8792,11 +8792,11 @@ body.in_global_drag .title-area {
   display: none; }
 
 .artworkmodal_ArtworkModalDetails_1sEyq *::-webkit-scrollbar-thumb:hover {
-  background-color: #606774;
+  background-color: var(--GreenBG);
   background-clip: padding-box; }
 
 .artworkmodal_ArtworkModalDetails_1sEyq *::-webkit-scrollbar-corner {
-  background-color: #434953; }
+  background-color: var(--GreenBG); }
 
 .artworkmodal_ArtworkContainer_1DyzX {
   display: flex;
@@ -10005,10 +10005,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-track, .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-button {
     display: none; }
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-thumb:hover {
-    background-color: #606774;
+    background-color: var(--GreenBG);
     background-clip: padding-box; }
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-corner {
-    background-color: #434953; }
+    background-color: var(--GreenBG); }
 
 .appdetailssoundtrack_ArtworkModalDetails_SLVVM {
   display: flex;
@@ -10745,7 +10745,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   position: relative; }
 
 .appdetailsreviewsection_InnerContainer_1dW9d {
-  background-color: #1d2227;
+  background-color: var(--DarkGreenBG);
   width: 100%; }
 
 .appdetailsreviewsection_InnerContainerLower2_kr3AV {
@@ -10905,7 +10905,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsreviewsection_VoteButton_3jaOU {
   display: flex !important;
   height: 33px;
-  background-color: #1d2227;
+  background-color: var(--DarkGreenBG);
   border-radius: 2px;
   border: none; }
 
@@ -11102,7 +11102,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       color: #9f9fa0; }
 
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
-  background: url(/images/workshopbackground.png) #2c3138;
+  background: url(/images/workshopbackground.png) var(--GreenBG);
   background-repeat: no-repeat; }
 
 .appdetailsworkshopsection_WorkshopHightlight_1zmwc {
@@ -11249,7 +11249,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopSubCountFooter_3CjOR {
     width: 100%;
     height: 60px;
-    background-color: #1d2227;
+    background-color: var(--DarkGreenBG);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11284,7 +11284,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsworkshopsection_WorkshopItem_24o0B {
   width: 100%;
   height: 64px;
-  background-color: #1d2227;
+  background-color: var(--DarkGreenBG);
   display: flex;
   flex-direction: row;
   margin-top: 4px; }
@@ -11348,7 +11348,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-sizing: border-box;
   margin-top: 10px; }
   .appdetailsworkshopsection_VisitButtonContainer_1GHKp .appdetailsworkshopsection_VisitButton_AQr83 {
-    background-color: #1d2227;
+    background-color: var(--DarkGreenBG);
     height: 34px;
     color: #9f9fa0;
     font-size: 13px;
@@ -23518,7 +23518,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
       border: 4px solid transparent;
       background-image: none; }
       .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb:hover {
-        background-color: #606774;
+        background-color:var(--GreenBG);
         background-clip: padding-box; }
     .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-track, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-button {
       display: none; }
@@ -23893,7 +23893,7 @@ img {
 
 ::-webkit-scrollbar-thumb {
   width: 10px;
-  background-color: #434953;
+  background-color: var(--GreenBG);
   border-radius: 10px;
   z-index: 12;
   border: 4px solid rgba(0, 0, 0, 0);
@@ -23904,10 +23904,10 @@ img {
   min-width: 32px; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4E5157; }
+  background: var(--GreenBG); }
 
 ::-webkit-scrollbar-corner {
-  background: #202020; }
+  background: var(--GreenBG); }
 
 ::selection {
   background: var(--MaizeBG);
