@@ -4331,7 +4331,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   height: 6px;
   width: 80px;
   border-radius: 5px;
-  background-color: #151619;
+  background-color: var(--DarkGreenBG);
   transition: height .06s ease-in-out, border-radius .06s ease-in-out; }
   .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_DetailsProgressContainer_25YVD {
     height: 2px;
@@ -4339,7 +4339,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   .appdetailsplaysection_DetailsProgressContainer_25YVD.appdetailsplaysection_DownloadPaused_16orP .appdetailsplaysection_DetailsProgressBar_1FnTq {
     background-color: #535c70; }
   .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
-    background-color: var(--MaizeBG);
+    background-color: var(--Maize);
     border-radius: 5px;
     height: 100%;
     transition: all .1s linear; }
@@ -5586,11 +5586,11 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
   height: 8px;
   align-self: stretch;
-  background-color: black;
+  background-color: var(--DarkGreenBG);
   border-radius: 3px;
   margin: 6px 0; }
   .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-    background-color: var(--MaizeBG);
+    background-color: var(--Maize);
     border-radius: 2px;
     height: 100%; }
 
