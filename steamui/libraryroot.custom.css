@@ -13931,7 +13931,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   outline: none;
   cursor: pointer; }
   .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-    color: #fff !important;
+    color: #fff;
     background-color: transparent; }
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
     background-color: var(--BorderDark);
