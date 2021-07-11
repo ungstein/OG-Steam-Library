@@ -10,7 +10,9 @@
 	--OffWhite: #d8ded3 !important;
 	--Maize: #c4b550 !important;
 	--MaizeBG: #91863c !important;
-	--Label: #a0aa95 !important; }
+	--Label: #a0aa95 !important;
+	--DimListText: #758666 !important;
+	--DisabledText1: #75806f !important; }
 
 /* No Bullshit Mode */
 /*
@@ -13935,11 +13937,11 @@ div.appgrid_CoverSizeSlider_U4J9B {
     background-color: var(--BorderDark);
     border-radius: 3px; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
-    color: #a3aab9; }
+    color: var(--DimListText); }
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
-    color: #c3c9d8; }
+    color: var(--DimListText); }
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover, .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
-    color: #c8d0dc;
+    color: var(--DimListText);
 	background-color: transparent; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
     color: var(--OffWhite);
@@ -13947,7 +13949,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Updating_1LVQp, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
     color: #fff; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
-    color: var(--OffWhite); }
+    color: #fff; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Installed_2ws8D {
     color: #fff; }
   .gamelistentry_Container_2-O4Z.gamelistentry_InstalledRemotely_hmT7J {
