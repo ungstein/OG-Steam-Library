@@ -12,6 +12,12 @@ Installing
 * Copy the **steamui** folder into your Steam installation folder (e.g. "C:\Program Files (x86)\Steam").
 * Optional webkit.css can be placed in skins\OG-Steam\resource to remove additional fluff such as What's New, Ratings, Add to Activity Feed and Trading Cards.
 
+Uninstalling
+-
+
+* Make sure SteamFriendsPatcher is not set to run on startup (Settings > uncheck "Start with Windows")
+* Delete the **steamui** folder, then restart Steam. This will force Steam to download an extract the current Steam package, giving you the original Library files.
+  
 Preview
 -
 ![Library-Main](https://i.imgur.com/iGQpX2O.png)
