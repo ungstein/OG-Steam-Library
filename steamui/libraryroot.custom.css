@@ -6807,7 +6807,7 @@ button.DialogButton::-moz-focus-inner {
   border-width: 1px;
   border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 */
-  margin: 6px 6px 6px 4px;					  
+  margin: 6px;					  
   display: flex;
   flex-direction: column;
   flex: 1;
