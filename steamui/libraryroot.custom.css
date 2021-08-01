@@ -23750,6 +23750,19 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
     border: 2px solid none;
     background: none;
 }
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+    border: 2px solid none;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+.downloads_Active_IbePL .downloads_SectionList_OINnO:hover {
+    border-color: none;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    background-color: transparent;
+    padding-left: 24px;
+    overflow-y: scroll;
+}
 .downloads_SectionItem_1VNuY:hover,
 .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
     background-color: transparent;
