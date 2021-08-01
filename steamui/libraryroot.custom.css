@@ -23735,144 +23735,376 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
     width: 100%;
     overflow: hidden; }
 
-/* stylelint-disable */
-
-/* stylelint-enable */
 .downloads_DownloadsPage_1bq4x {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background: none;
+  box-sizing: border-box; }
 
 .downloads_ItemLists_1ugNi {
   overflow-y: auto; }
 
-.downloads_GraphAndStats_3ZsSz {
-  width: 100%;
-  background-color: #0c1b26;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px; }
-  .downloads_GraphAndStats_3ZsSz .downloads_RightPane_3o-EI {
+.downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
+    border: 2px solid none;
+    background: none;
+}
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+    background-color: transparent;
+    border-radius: 2px;
+}
+.downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
+    border: 2px dashed var(--GreenBG);
+    border-radius: 5px;
+}
+
+.downloads_TopBar_SEmVp {
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    background: none;
+}
+
+.downloadgraph_GraphAndStats_3KDkL {
+    width: 100%;
+    height: 154px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: auto;
+}
+.downloadgraph_GraphAndStats_3KDkL .downloadgraph_RightPanel_XBpGP {
     display: flex;
     flex-direction: column;
-    flex: 0 0 15%;
-    padding: 10px; }
-
-.downloads_StatsPanel_2IXt5 {
-  width: 20%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  flex-grow: 0; }
-  .downloads_StatsPanel_2IXt5 .downloads_Title_TK9wv {
-    color: #fffc0;
-    text-transform: uppercase; }
-  .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+    flex: 0 1 15%;
+    padding: 10px;
+}
+.downloadgraph_StatsPanel_3mdnp {
+    flex: 0 0 36%;
+    padding: 0 32px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 540px;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
+    margin-bottom: 4px;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_StatsWrapper_3YaPa {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
     width: 100%;
-    text-transform: uppercase; }
-  .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
-    color: #fffc0;
-    text-transform: none; }
-
-.downloads_PauseResumeButton_wLQrw {
-  text-transform: uppercase;
-  flex: 0 0 auto;
-  padding: 0px 10px;
-  height: 32px; }
-  .downloads_PauseResumeButton_wLQrw.downloads_Hidden_3B09J {
-    opacity: 0; }
-
-.downloads_DownloadGraph_1ashw {
-  flex-grow: 1;
-  flex-shrink: 0;
-  position: relative; }
-  .downloads_DownloadGraph_1ashw .downloads_GraphBar_33npA {
-    fill: #245382;
-    width: 0.5px; }
-  .downloads_DownloadGraph_1ashw .downloads_DiskGraph_1UAfr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #8b929a;
+    padding-right: 5px;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4:last-child {
+    padding-right: 0px;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-transform: none;
+    color: #fff;
+    margin-bottom: -6px;
+    white-space: nowrap;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
+    line-height: initial;
+    margin-top: 2px;
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.downloadgraph_DownloadGraph_1BxZD {
+    flex-grow: 1;
+    flex-shrink: 0;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    margin-left: -100px;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
-    .downloads_DownloadGraph_1ashw .downloads_DiskGraph_1UAfr svg {
-      width: 100%;
-      height: 100%; }
-  .downloads_DownloadGraph_1ashw .downloads_GraphLine_affyz {
+    height: 100%;
+    background-image: none;
+    pointer-events: none;
+}
+
+div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
+    background-image: linear-gradient(to right, #0e141b, rgba(14, 20, 27, 0) 30%);
+}
+div.NarrowWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3,
+div.ShortWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
+    background-image: linear-gradient(to right, #0e141b, rgba(14, 20, 27, 0) 40%);
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC {
+    color: rgba(26, 159, 255, 0.5);
+    width: 1px;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC:hover .downloadgraph_GraphBar_3raSL {
+    color: rgba(255, 255, 255, 0.5);
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC:hover .downloadgraph_DiskPoint_10Cul {
+    color: #fff;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+    color: rgba(26, 159, 255, 0.5);
+    width: 0.5px;
+    fill: currentColor;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+    color: transparent;
+    height: 120px;
+    width: 1px;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
+    color: transparent;
+    stroke: currentColor;
+    stroke-width: 8px;
+    stroke-linecap: round;
+    vector-effect: non-scaling-stroke;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 80%;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy svg {
+    width: 100%;
+    height: 100%;
+}
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
     fill: none;
-    stroke: green;
+    stroke: #59bf40;
     stroke-width: 2px;
-    vector-effect: non-scaling-stroke; }
-
-.downloads_DownloadGraphLegend_3_GZ_ {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
-  .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendRow_2p4J1 {
+    vector-effect: non-scaling-stroke;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 {
+    flex-grow: 0;
     display: flex;
-    align-items: center; }
-  .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendBox_2qlUv {
-    width: 12px;
-    height: 12px;
-    margin-right: 5px; }
-  .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
-    text-transform: uppercase;
-    font-size: 14px; }
-  .downloads_DownloadGraphLegend_3_GZ_ .downloads_Network_2mLZn {
-    background-color: #245382; }
-  .downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
-    background-color: green; }
-
-.downloads_Section_3Mbhn {
-  margin-bottom: 10px; }
-  .downloads_Section_3Mbhn .downloads_SectionTitle_qq2xI {
-    font-weight: bold;
-    background-color: #fff10;
-    margin-bottom: 10px;
-    padding: 0px 10px; }
-
-.downloads_SectionItem_1VNuY {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5px;
-  padding: 10px; }
-  .downloads_SectionItem_1VNuY .downloads_AppPortait_2xEpK {
-    flex-grow: 0; }
-  .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
-    font-weight: bold;
-    color: #fffc0; }
-  .downloads_SectionItem_1VNuY .downloads_AutoUpdate_qrwf3 {
-    cursor: pointer;
-    font-size: 14px; }
-  .downloads_SectionItem_1VNuY .downloads_AutoUpdate_qrwf3:hover {
-    color: #fffc0; }
-  .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
-    display: flex;
+    justify-content: left;
     flex-direction: row;
-    justify-content: flex-end; }
-  .downloads_SectionItem_1VNuY .downloads_Button_3oavR {
+    padding: 0px 16px 0 0;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendRow_Ayu-- {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendBox_3PLc4 {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendBox_3PLc4 svg {
+    width: 14px;
+    height: 14px;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC {
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #b8bcbf;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
+    color: rgba(26, 159, 255, 0.9);
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
+    height: 2px;
+    background-color: #59bf40;
+}
+.downloadgraph_Throttle_38T9T {
+    cursor: pointer;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #b8bcbf;
+}
+.downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
+    color: #1a9fff;
+    text-transform: none;
+}
+.downloadgraph_Throttle_38T9T.downloadgraph_Suspended_17abq .downloadgraph_ThrottleValue_3XTah,
+.downloadgraph_Throttle_38T9T.downloadgraph_Suspended_17abq .downloadgraph_Suspended_17abq {
+    color: gray;
+}
+.downloadgraph_Throttle_38T9T.downloadgraph_Suspended_17abq .downloadgraph_Suspended_17abq {
+    text-transform: uppercase;
+}
+.downloadgraph_Throttle_38T9T.downloadgraph_Empty_pHDI1 {
+    cursor: inherit;
+}
+.downloadgraph_HeroAndLogo_3mZ2r {
+    width: calc(154px / 0.345);
+    max-width: 35%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    pointer-events: none;
+}
+.downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_HeaderImage_2NqL3 img {
+    width: calc(154px / 0.323);
+    height: 100%;
+    padding-top: 0px;
+    margin: auto auto;
+    -webkit-mask-image: none;
+}
+div.UltraWideWindow .downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_HeaderImage_2NqL3 img {
+    -webkit-mask-image: radial-gradient(circle at 0%, #0e141b 70%, rgba(14, 20, 27, 0) 90%);
+}
+div.NarrowWindow .downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_HeaderImage_2NqL3 img,
+div.ShortWindow .downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_HeaderImage_2NqL3 img {
+    -webkit-mask-image: radial-gradient(circle at 0%, #0e141b 50%, rgba(14, 20, 27, 0) 80%);
+}
+.downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_Logo_1H3Su {
+    position: absolute;
+    left: 20px;
+    width: 60%;
+    height: 85%;
+    display: flex;
+    background-color: transparent;
+}
+.downloadgraph_HeroAndLogo_3mZ2r .downloadgraph_Logo_1H3Su img {
+    object-fit: contain !important;
+}
+.downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
+    background: none;
+    opacity: 0.3;
+    -webkit-mask-image: radial-gradient(circle at 0%, #0e141b 30%, rgba(14, 20, 27, 0) 90%);
+}
+.downloadgraph_SettingsButton_lzk4z {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
     line-height: initial;
-    height: 26px;
-    width: 26px;
-    padding: 2px;
-    margin-left: 4px; }
-  .downloads_SectionItem_1VNuY .downloads_MoveToTopSVG_1EBlN {
-    height: 24px;
-    width: 24px; }
-  .downloads_SectionItem_1VNuY .downloads_Button_3oavR .SVGIcon_Button {
-    margin-right: 0px; }
-  .downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5 {
-    flex-grow: 1;
-    flex-basis: 33%; }
-  .downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE {
-    flex-grow: 0; }
-    .downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE div {
-      text-align: right; }
-  .downloads_SectionItem_1VNuY .downloads_Stat_wiA4X .downloads_Value_1dHjj {
-    color: #fffc0; }
+    width: 16px;
+    height: 16px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    margin: 0;
+    border-radius: 2px;
+    box-shadow: none;
+    background: #3d4450;
+    color: #dcdedf;
+}
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover {
+    background: #67707b;
+}
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8 svg {
+    width: inherit;
+    height: inherit;
+}
+
+
 
 body,
 body.shared_common_v6_2Lxgd {
