@@ -14027,8 +14027,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
 .gamelistentry_AppIconDownloading_2kzMb {
   box-sizing: border-box;
   margin-right: 5px;
-  height: 16px;
-  width: 16px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   overflow: hidden;
   position: relative; }
@@ -14048,8 +14048,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
     filter: brightness(0.4); }
 
 .gamelistentry_InvalidOSType_1S99n {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   left: 3px;
   top: 3px; }
@@ -14060,8 +14060,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
     fill: darkgray; }
 
 .gamelistentry_FriendIsPlaying_cNZ3w {
-  width: 11px;
-  height: 11px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   left: 6px;
   top: 3px; }
