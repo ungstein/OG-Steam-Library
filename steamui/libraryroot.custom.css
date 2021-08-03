@@ -961,7 +961,8 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   z-index: 100;
   opacity: 0;
   transition: opacity 0s;
-  pointer-events: none; }
+  pointer-events: none;
+  zoom: 83%; }
   .hoverposition_HoverPosition_3vg1v.hoverposition_Ready_1Ye_0 {
     opacity: 1; }
   .hoverposition_HoverPosition_3vg1v.hoverposition_NoSpace_pxVZH {
