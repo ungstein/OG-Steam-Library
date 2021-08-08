@@ -3432,7 +3432,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
     background: linear-gradient(to right, #235ecf 0%, #235ecf 60%);
     background-position: 0%;
-    background-size: 330% 100%; }
+    background-size: 330% 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
   :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
     fill: #cbeeff;
     transition: all 0.2s ease-in-out; }
