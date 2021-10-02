@@ -12900,7 +12900,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
     background-color: black; }
   .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
-    background-color: #20aaeb;
+    background-color: var(--Maize);
     height: 100%;
     transition: all .8s ease-out; }
 
