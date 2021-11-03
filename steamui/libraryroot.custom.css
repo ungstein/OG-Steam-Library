@@ -172,7 +172,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 
 .ModalPosition_TopBar {
-	background: none;
+	display: none;
 }
 .Destructive .ModalPosition_TopBar {
 	background: none;
@@ -1111,7 +1111,7 @@ width: 12px;
 }
 
 
-/* App Details Page ------------------------------------------------------------------------------------------------------*/
+/* App Details Page -----------------------------------------------------------------------------------------------------*/
 
 
 
@@ -1169,7 +1169,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 
 
 
-/* Downloads Page --------------------------------------------------------------------------------------------------------*/
+/* Downloads Page -------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -1339,12 +1339,170 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 
 
-/* Scrollbars ------------------------------------------------------------------------------------------------------------*/
+/* Storage Manager ------------------------------------------------------------------------------------------------------*/
+
+
+
+.contentmanagement_Header_3ol0F {
+    padding: 0px 10px;
+}
+
+.contentmanagement_LibraryContent_ybEU2 {
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	padding: 16px;
+	margin-top: -1px;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pageablecontainer_PageClickContainer_3E421 {
+	margin-left: auto;
+	margin-right: -25px;
+	margin-bottom: 16px;
+	display: flex;
+}
+
+.contentmanagement_PageableCarousel_1XRwl {
+	margin: 0 16px;
+	max-width: 95%;
+}
+
+.contentmanagement_InstallFolder_12aBP {
+	padding: 0px 6px;
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
+	margin-right: 4px;
+	margin-bottom: 1px;
+}
+
+.contentmanagement_InstallFolder_12aBP svg {
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+}
+
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_IsSelected_3VQeL svg {
+	color: var(--Maize);
+}
+.contentmanagement_IsSelected_3VQeL:hover .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL:hover .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_IsSelected_3VQeL:hover svg {
+	color: var(--Maize);
+}
+
+.contentmanagement_DriveName_1rihl {
+	font-weight: normal;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: 0px;
+	color: #fff;
+}
+
+.contentmanagement_DriveSize_5bG9I {
+	font-weight: normal;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: 0px;
+	color: #fff;
+}
+
+.contentmanagement_IsSelected_3VQeL {
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	position: relative;
+	z-index: 1;
+	margin-bottom: -1px;
+}
+
+.contentmanagement_ContentManagement_3wk64 {
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO, .contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	margin-right: -8px;
+}
+.contentmanagement_DriveSettingsButton_1WKUO:active {
+	background: var(--GreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+	margin-right: -8px;
+}
+
+
+.contentmanagement_AppActionBar_35T-O {
+	background: transparent;
+	padding: 0px 16px 14px;
+}
+
+.contentmanagement_AppsGrid_2n6FN {
+	margin-top: 0px;
+}
+.contentmanagement_LibraryContent_ybEU2 .contentmanagement_AppsGrid_2n6FN {
+	background: var(--DarkGreenBG);
+	border-style: solid;
+    border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+}
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
+	background-color: transparent;
+}
+
+.contentmanagement_AppActionSelected_1dFOk {
+	text-align: center;
+	height: 100%;
+	position: absolute;
+	left: 20px;
+	top: 18px;
+}
+
+button.DialogButton:disabled, button.DialogButton:disabled:hover {
+	color: var(--DisabledText2);
+	text-shadow: 1px 1px var(--DisabledText1);
+}
+
+
+
+/* Scrollbars -----------------------------------------------------------------------------------------------------------*/
 
 
 
 ::-webkit-scrollbar {
 	width: 18px;
+	background: transparent;
+}
+::-webkit-scrollbar-corner {
 	background: transparent;
 }
 ::-webkit-scrollbar-thumb {
