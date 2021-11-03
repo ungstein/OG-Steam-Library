@@ -1191,12 +1191,16 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	stroke: White;
 }
 
-.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
-	color: var(--Label);
-}
-
 .downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w.downloads_Downloading_33BlY {
 	color: var(--Maize);
+}
+
+.downloads_PatchNotes_3kXEp {
+	color: var(--Maize);
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
+	color: var(--Label);
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
@@ -1232,6 +1236,9 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	background: transparent;
 }
 
+.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w .downloads_InProgress_3Wavc {
+	color: var(--Label);
+}
 .downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
 	color: var(--Label);
 }
