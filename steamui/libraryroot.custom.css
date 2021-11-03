@@ -1198,6 +1198,9 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 .downloads_PatchNotes_3kXEp {
 	color: var(--Maize);
 }
+.downloads_PatchNotes_3kXEp:hover {
+	color: White;
+}
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
 	color: var(--Label);
