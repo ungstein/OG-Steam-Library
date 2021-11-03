@@ -841,6 +841,7 @@ width: 12px;
 ;
 }
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+	color: var(--Label);
 	background: transparent;
 }
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
