@@ -1117,17 +1117,20 @@ width: 12px;
 
 
 div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-	background: var(--GreenBG);
+	background: var(--DarkGreenBG);
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-	background: var(--GreenBG);
+	background: var(--DarkGreenBG);
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
+	background: var(--DarkGreenBG);
+/*
 	background: var(--GreenBG);  
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+*/
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY {
 	background: var(--GreenBG);
@@ -1166,6 +1169,28 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 .appdetails_ScrollContainer_2l416 {
 	background-color: var(--DarkGreenBG);
+}
+
+.appdetailssectionheader_SectionHeader_1Q2q_ {
+	color: var(--Label)
+}
+.appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
+	color: var(--Label)
+}
+
+
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+	background: none;
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover,
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover,
+.comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
+	cursor: pointer;
+	background-color: transparent;
+}
+.appdetailsplaysection_MenuButton_3qDWQ {
+	background-color: transparent;
 }
 
 
