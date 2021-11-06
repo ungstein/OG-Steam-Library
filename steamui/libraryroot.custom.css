@@ -374,6 +374,10 @@ button.DialogButton.Primary:enabled:hover:active {
     border-width: 1px;
 	border-color: var(--LightGreenBG);
 }
+.gamelistdropdown_Bar_1ZS_x {
+	padding: 0px 6px 0px;
+}
+
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
 	color: #fff;
 	background-color: var(--DarkGreenBG);
