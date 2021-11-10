@@ -1116,6 +1116,7 @@ width: 12px;
 }
 
 
+
 /* App Details Page -----------------------------------------------------------------------------------------------------*/
 
 
@@ -1175,6 +1176,47 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	background-color: var(--DarkGreenBG);
 }
 
+.pageablecontainer_PageableCloseButton_Y6Tq4 {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 24px;
+	opacity: .2;
+}
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+	height: 170px;
+	background: var(--GreenBG);
+	box-sizing: content-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	position: relative;
+	padding: 10px 0px 5px 0px;
+	border-radius: 0px;
+}
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
+	box-shadow: none !important;
+    border-radius: 0px;
+}
+
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
+    content: "";
+    box-shadow: inset 1px 1px 12px #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    user-select: none;
+    border-radius: 3px;
+}
+
+.spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+	color: var(--Label)
+}
 .appdetailssectionheader_SectionHeader_1Q2q_ {
 	color: var(--Label)
 }
@@ -1182,10 +1224,13 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	color: var(--Label)
 }
 
-
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
 	background: none;
 }
+.appdetailscommunityfeed_HeaderStyles_2lNdD {
+	background: none;
+}
+
 
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover,
 .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover,
@@ -1365,6 +1410,10 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .downloads_AutoUpdateHours_117rQ:hover .downloads_UpdateHours_34F9w,
 .downloads_AutoUpdateHours_117rQ:hover.downloads_NoHours_Sil68 {
     color: White;
+}
+
+.downloads_SectionJumpBar_mw7VZ {
+	background-color: var(--GreenBG);
 }
 
 
