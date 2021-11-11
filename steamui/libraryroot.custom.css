@@ -751,9 +751,52 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 
+.libraryhome_UpdatesContainer_17uEB {
+	background: none;
+}
+.pageablecontainer_HeaderPageControls_2ce8e {
+	padding-bottom: 24px;
+}
+.libraryhomenewupdates_EventTime_2rlKq {
+	padding-bottom: 8px;
+}
+
 .libraryhome_LibraryHome_3Sb2o {
 	background-image: none;
 }
+.pageablecontainer_HeaderPageControls_2ce8e {
+	color: var(--Maize);
+}
+.libraryhomenewupdates_EventTime_2rlKq {
+	color: var(--Label);
+}
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd {
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+}
+.libraryhomenewupdates_Event_Title_1Gu1U div.libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_DVBcp {
+	color: White;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl.libraryhomeshowcases_Reordering_2Ho8z {
+	background-color: transparent;
+}
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
+	border: none;
+}
+
+.libraryhomenewupdates_GameIconAndName_3_xMy .libraryhomenewupdates_GameName_28Iqr {
+	color: var(--Label);
+}
+
+.libraryhomenewupdates_GameIconAndName_3_xMy {
+	background-color: transparent;
+}
+.libraryhomenewupdates_GameIconAndName_3_xMy:hover {
+	background-color: transparent;
+}
+
 .libraryhome_Container_2gSXC {
 	background: var(--DarkGreenBG);
 }
@@ -782,7 +825,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
     color: var(--Maize);
-	padding: 4px 8px;
+	padding: 0px;
 }
 
 .libraryhomeshowcases_CollectionDropDown_1YdRd {
@@ -793,7 +836,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: #fff;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown.Disabled:hover {
-	color: var(--Label);
+	color: var(--OffWhite);
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow svg {
 	fill: var(--Label);
@@ -897,6 +940,10 @@ width: 12px;
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Rule_1PhK8 {
 	background-color: transparent;
+}
+
+.libraryhomerecentgames_RecentGame_1esfE .libraryhomerecentgames_AddedDate_1ANYF {
+	color: var(--Label);
 }
 
 .appportrait_LibraryItemBox_WYgDg {
@@ -1130,6 +1177,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
 	background: var(--DarkGreenBG);
+	padding-left: 0px;
 /*
 	background: var(--GreenBG);  
 	border-style: solid;
@@ -1174,6 +1222,45 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 .appdetails_ScrollContainer_2l416 {
 	background-color: var(--DarkGreenBG);
+}
+
+.appdetailsspotlight_ReviewContainer_3LE-6 {
+	background-color: var(--GreenBG); 
+}
+.writereview_RatingContainer_2SAb6 {
+	background-color: transparent;
+}
+.writereview_RatingContainer_2SAb6 .writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {
+	color: var(--Maize);
+	text-transform: uppercase;
+}
+.writereview_ReviewThumbButton_1kCN0 {
+	background: var(--GreenBG);
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.writereview_OptionButton_2gJ9F:hover {
+	background: var(--GreenBG);
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {
+	background: var(--GreenBG);
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.writereview_ReviewThumbButton_1kCN0:active {
+	background: var(--GreenBG);
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 
 .pageablecontainer_PageableCloseButton_Y6Tq4 {
