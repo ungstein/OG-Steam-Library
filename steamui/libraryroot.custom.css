@@ -1265,8 +1265,23 @@ width: 12px;
 
 
 
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+	background: var(--DarkGreenBG);
+}
+
 div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
 	background: var(--DarkGreenBG);
+}
+
+.library_TopGradient_34Cqr {
+	background: none;
+}
+.appdetailsplaysection_StickyHeaderShadow_2_86Q {
+	background: none;
+}
+
+.appdetails_PlayBar_2L3s2 {
+	width: calc( 100% - 18px );
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
@@ -1297,11 +1312,62 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Text_2sNDj {
 	color: White;
 }
+
+.appactivityday_PartnerEventTextOnly_3QRf- {
+	border: none;
+	background: none;
+}
+.appactivityday_PartnerEventTextOnly_3QRf-:hover {
+	border: none;
+	background: none;
+}
+
+.appactivityday_PartnerEvent_1AYE1 {
+	border: none;
+	background: none;
+}
+.appactivityday_PartnerEvent_1AYE1:hover {
+	border: none;
+	background: none;
+}
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+	border: none;
+	background: none;
+}
+.appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
+	border: none;
+	background: none;
+}
+
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:active {
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
 	background-color: var(--GreenBG);
+}
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+	background: var(--GreenBG);
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.appdetailssectionheader_Label_1SQ30 {
+	padding-top: 6px;
+}
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
+	color: White;
+}
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
+	color: White;
+}
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+	background: none;
+}
+.appdetailssection_Highlight_38t1m {
+	background: none;
 }
 
 button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeButton_i7jBC {
@@ -1319,6 +1385,12 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 .appdetails_ScrollContainer_2l416 {
 	background-color: var(--DarkGreenBG);
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--LightGreenBG);
 }
 
 .appdetailsspotlight_ReviewContainer_3LE-6 {
