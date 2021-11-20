@@ -51,26 +51,30 @@ body.shared_common_v6_2Lxgd {
 }
 
 button.DialogButton {
-  background: var(--GreenBG) !important;
-  color: #fff;
-  font-size: 12px;	
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-  color: #fff;
-  /* cursor: default; */
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 2px 8px;
-  margin: 2px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  /* for button */
-  -moz-user-select: none;
-  -ms-user-select: none; }
-  
+	background: var(--GreenBG) !important;
+	color: #fff;
+	font-size: 12px;	
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	color: #fff;
+	/* cursor: default; */
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 2px 8px;
+	margin: 2px 0;
+	user-select: none;
+	-webkit-user-select: none;
+	/* for button */
+	-moz-user-select: none;
+	-ms-user-select: none; }
+
+button.DialogButton::before {
+	transition: none;
+}
+
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover {
 	background: var(--GreenBG);
@@ -1340,6 +1344,17 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	background: none;
 }
 
+.appactivityday_PartnerEventLargeImage_Container_Libri {
+	background: none;
+}
+.appactivityday_PartnerEventLargeImage_Container_Libri:hover {
+	background: none;
+}
+
+.appactivityday_PartnerEventLargeUpdate_39Zk3 {
+	border: none;
+}
+
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:active {
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
@@ -1471,13 +1486,31 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
-	color: var(--Label)
+	color: var(--Label);
 }
 .appdetailssectionheader_SectionHeader_1Q2q_ {
-	color: var(--Label)
+	color: var(--Label);
 }
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-	color: var(--Label)
+	color: var(--Label);
+}
+.spotlight_MajorEventHeader_1HL2n .spotlight_EventType_3zVyX {
+	color: var(--Label);
+}
+.appactivityday_PartnerEventType_1ujzu {
+	color: var(--Label);
+}
+.appactivityday_PartnerEventMediumImage_Title_1gljE {
+	color: White;
+}
+.appactivityday_PartnerEventMediumImage_Summary_Ru7OB {
+	color: var(--Label);
+}
+.appactivityday_PartnerEventLargeImage_Summary_3zwBR {
+	color: White;
+}
+.appactivityday_PartnerEventLargeImage_Title_3fsjz {
+	color: var(--Label);
 }
 
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
@@ -1496,6 +1529,10 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 .appdetailsplaysection_MenuButton_3qDWQ {
 	background-color: transparent;
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
+	color: White;
 }
 
 
@@ -1530,6 +1567,9 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	color: var(--Maize);
 }
 .downloads_PatchNotes_3kXEp:hover {
+	color: White;
+}
+.downloads_ContentTypes_1IKba {
 	color: White;
 }
 
