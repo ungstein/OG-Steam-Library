@@ -69,7 +69,9 @@ button.DialogButton {
 	-webkit-user-select: none;
 	/* for button */
 	-moz-user-select: none;
-	-ms-user-select: none; }
+	-ms-user-select: none;
+	transition: none;
+}
 
 button.DialogButton::before {
 	transition: none;
@@ -1309,6 +1311,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	text-align: center;
 	padding: 2px 12px 4px 12px;
+	transition: none;
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
 	margin-right: -11px;
@@ -1533,6 +1536,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
 	color: White;
+	transition: none;
 }
 
 
