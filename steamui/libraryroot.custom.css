@@ -74,6 +74,7 @@ button.DialogButton {
 }
 
 button.DialogButton::before {
+	box-shadow: none;
 	transition: none;
 }
 
@@ -760,9 +761,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .libraryhome_UpdatesContainer_17uEB {
 	background: none;
 }
-.pageablecontainer_HeaderPageControls_2ce8e {
-	padding-bottom: 24px;
-}
+
 .libraryhomenewupdates_EventTime_2rlKq {
 	padding-bottom: 8px;
 }
