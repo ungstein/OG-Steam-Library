@@ -676,6 +676,15 @@ button.DialogButton.Primary:enabled:hover:active {
 	background-color: var(--DarkGreenBG);
 }
 
+.gamelistbar_OneCollectionWarning_2Q95p {
+	background-color: transparent;
+	margin: 0px;
+}
+.gamelistbar_OneCollectionWarning_2Q95p:hover {
+	background-color: transparent;
+	margin: 0px;
+}
+
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb {
     min-height: 100px;
 	background: var(--GreenBG) !important;
