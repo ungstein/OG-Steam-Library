@@ -178,6 +178,13 @@ button.DialogButton.Primary:enabled:hover:active {
 
 
 
+.PopupFullWindow {
+	height: calc(100% - 2px);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+
 .ModalPosition_TopBar {
 	display: none;
 }
@@ -260,6 +267,12 @@ button.DialogButton.Primary:enabled:hover:active {
 	font-weight: 300;
 	margin-bottom: 32px;
 	user-select: none;
+}
+
+.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
+	background: var(--GreenBG);
+	color: var(--Label);
+	overflow: hidden;
 }
 
 .ModalDialogPopup .DialogContentTransition .DialogBody {
