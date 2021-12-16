@@ -1066,12 +1066,6 @@ width: 12px;
 	color: var(--Label);
 }
 
-.appportrait_LibraryItemBox_WYgDg {
-	border-style: solid;
-	border-width: 1px;
-	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
-}
-
 .libraryassetimage_Visibility_3d_bT {
 	transition: none;
 }
@@ -1722,7 +1716,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
 	border-style: solid;
     border-width: 1px;
-    border-color: var(--BorderDark) transparent var(--BorderBright) var(--BorderDark);
+    border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .appportrait_PortraitImage_2IYf7 {
 	transition: none;
