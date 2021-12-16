@@ -286,9 +286,6 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .DialogContent, .DialogContentTransition {
 	background: var(--GreenBG);
-	border-style: solid;
-	border-width: 0.1px;
-	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 
 .DialogCheckbox .SVGIcon_DialogCheck {
@@ -1070,6 +1067,12 @@ width: 12px;
 	transition: none;
 }
 
+.appportrait_LibraryItemBox_WYgDg {
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+}
+
 .appportrait_LibraryItemBoxSubscript_1LJqx {
 	color: #fff;
 	background-color: var(--LightGreenBG);
@@ -1214,17 +1217,24 @@ width: 12px;
 
 
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
+.pagedsettings_PagedSettingsDialog_2sssI {
 	background: var(--GreenBG);
+}
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
+	background: var(--DarkGreenBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 0.1px;
-	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 	min-width: 140px;
 	max-width: 220px;
 	padding-left: 24px;
 	padding-right: 24px;
 	padding-top: 40px;
+	margin-left: 23px;
+	margin-top: 23px;
+	margin-bottom: 23px;
 }
 
 .pagedsettings_PagedSettingsDialog_Title_2rjVT {
@@ -1720,6 +1730,10 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 .appportrait_PortraitImage_2IYf7 {
 	transition: none;
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_InDownloads_3J3TT {
+	border: none;
 }
 
 .downloads_AutoUpdateHours_117rQ {
