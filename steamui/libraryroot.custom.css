@@ -178,6 +178,31 @@ button.DialogButton.Primary:enabled:hover:active {
 
 
 
+.DialogContent {
+	
+}
+
+.DialogContent_InnerWidth {
+	overflow: visible;
+}
+
+._DialogColLayout {
+	
+}
+
+.DialogBody {
+	overflow: hidden;
+}
+
+.DialogBodyText {
+	color: var(--Label);
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 300;
+	margin-bottom: 22px;
+	user-select: none;
+}
+
 .PopupFullWindow {
 	height: calc(100% - 2px);
 	border-style: solid;
@@ -258,15 +283,6 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 .title-area-icon .SVGIcon_X_Line line {
 	display: none;
-}
-
-.DialogBodyText {
-	color: var(--Label);
-	font-size: 14px;
-	line-height: 19px;
-	font-weight: 300;
-	margin-bottom: 32px;
-	user-select: none;
 }
 
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
@@ -615,6 +631,21 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: #fff;
 	background-color: var(--DarkGreenBG) !important;
 }
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Synchronizing_1yaIZ {
+	color: #fff;
+	background-color: var(--BorderDark);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_CloudError_cMb2t {
+	color: #fff;
+}
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t {
+	color: #fff;
+	background: var(--BorderDark);
+}
+
 .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
 	color: #fff;
 	background-color: var(--BorderDark);
@@ -1307,6 +1338,15 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 .library_TopGradient_34Cqr {
 	background: none;
 }
+
+.library_AppDetailsTransitionGroup_2Dd4T {
+	background: var(--DarkGreenBG);
+}
+
+.sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV {
+	height: 0px;
+}
+
 .appdetailsplaysection_StickyHeaderShadow_2_86Q {
 	background: none;
 }
