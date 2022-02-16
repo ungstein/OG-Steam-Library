@@ -216,6 +216,9 @@ button.DialogButton.Primary:enabled:hover:active {
 .Destructive .ModalPosition_TopBar {
 	background: none;
 }
+.ModalPosition_Content {
+	color: var(--Label);
+}
 
 .ModalPosition_Dismiss .closeButton {
 	width: 20px;
