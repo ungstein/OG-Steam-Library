@@ -1633,9 +1633,27 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 .appdetailssectionheader_SectionHeader_1Q2q_ {
 	color: var(--Label);
 }
+
+.appactivityday_AppActivityDay_S2Fu9 {
+	background: var(--GreenBG);
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt .comment_thread_RatingIcon_2AVfX, .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou .comment_thread_RatingIcon_2AVfX, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionIcon_QL3Aa .comment_thread_RatingIcon_2AVfX {
+	fill: var(--Label);
+	stroke: var(--Label);
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn, .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+	color: var(--Label)
+}
+
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
 	color: var(--Label);
+	margin-left: 12px;
+	margin-top: 6px;
 }
+
 .spotlight_MajorEventHeader_1HL2n .spotlight_EventType_3zVyX {
 	color: var(--Label);
 }
@@ -1658,6 +1676,11 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
 	background: none;
 }
+
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+	margin-left: 12px;
+}
+
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
 	background: none;
 }
