@@ -1425,9 +1425,18 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	border: none;
 	background: none;
 }
+
+.appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
+	color: var(--Label);
+}
+
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
 	border: none;
 	background: none;
+}
+
+.appactivityday_PartnerEventTextOnly_Title_1Cva_ {
+	color: White;
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
@@ -1713,7 +1722,12 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+	color: var(--Label);
 	margin-left: 12px;
+}
+
+.personanameandstatus_playerNickname_2saJT {
+	color: var(--OffWhite);
 }
 
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
