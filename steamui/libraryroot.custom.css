@@ -1425,14 +1425,16 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	border: none;
 	background: none;
 }
-
+.appactivityday_PartnerEventTextOnly_3QRf-:hover {
+	border: none;
+	background: none;
+}
 .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
 	color: var(--Label);
 }
 
-.appactivityday_PartnerEventTextOnly_3QRf-:hover {
-	border: none;
-	background: none;
+.appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
+	fill: var(--Label);
 }
 
 .appactivityday_PartnerEventTextOnly_Title_1Cva_ {
@@ -1479,6 +1481,11 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+
+.appdetailsachievementssection_UnachievedSection_3ca11.appdetailsachievementssection_ShowDivider_3i6Pc {
+	box-shadow: 0 -1px 0 var(--BorderDark) !important;
+	border-top: 1px solid var(--BorderBright);
 }
 
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
@@ -1798,6 +1805,10 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
 	color: White;
 	transition: none;
+}
+
+.infoicon_MoreInfoIcon_34I5H {
+	background-color: var(--LightGreenBG);
 }
 
 .appdetailscommunityfeed_LoadContentButton_2RSxE {
