@@ -207,6 +207,12 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 
+.FullModalOverlay .ModalPosition_Content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+
 .ModalPosition_TopBar {
 	display: none;
 }
