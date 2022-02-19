@@ -1480,6 +1480,55 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
+
+.appdetailsachievementssection_UnlockedLabel_3jC8o {
+	color: White;
+}
+.appdetailsachievementssection_UnlockedLabelPercent_14kZV {
+	color: var(--Label);
+}
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Desc_2gLHb {
+	color: var(--Label);
+}
+.appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
+	color: var(--Label);
+}
+.appdetailstradingcardssection_CardsLeft_2H1Mi {
+	color: var(--Label);
+}
+.appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemName_1KR5X {
+	color: var(--OffWhite);
+}
+.appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemDesc_3SzXr {
+	color: var(--Label);
+}
+.appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedLinks_3Mq6s .appdetailsworkshopsection_FeaturedItemLink_YE_jJ {
+	color: var(--OffWhite);
+}
+.appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoneTaken_2_Wwn {
+	color: var(--Label);
+}
+.appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_InstructionText_2QCkj{
+	color: var(--Label);
+}
+.appdetailsreviewsection_ReviewText_3k8QE {
+	color: var(--Label);
+}
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentsLabel_2EyEa {
+	color: var(--Label);
+}
+.appdetailsreviewsection_PlayedForTime_BDa6l {
+	color: var(--Label);
+}
+
+.writereview_Header_27mfP {
+	color: var(--Maize);
+}
+.writereview_ReviewTextArea_392iE {
+	background: var(--DarkGreenBG);
+	border: 1px solid var(--BorderDark) !important;
+}
+
 .appdetailssectionheader_Label_1SQ30 {
 	padding-top: 6px;
 }
@@ -1514,6 +1563,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+	color: var(--Label);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--LightGreenBG);
