@@ -38,9 +38,6 @@
 .appdetailssection_Highlight_38t1m {
   background: transparent !important; }
 
-.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-  background: var(--DarkGreenBG) !important; }
-
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
   margin-right: 16px !important; }
 */
@@ -1452,7 +1449,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
 	border: none;
-	background: none;
+	background: var(--GreenBG);
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
 	border: none;
