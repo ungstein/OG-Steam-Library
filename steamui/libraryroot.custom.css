@@ -929,6 +929,11 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
+
+.appactivityday_PartnerEventTextOnly_Time_ZzN4S {
+	color: var(--Maize);
+}
+
 .libraryhomenewupdates_Event_Title_1Gu1U div.libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_DVBcp {
 	color: White;
 }
@@ -1418,13 +1423,21 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	color: White;
 }
 
+.appdetailsspotlight_AppDetailsSpotlightDemo_xYbDd {
+	background: none;
+}
+
+.appactivityday_PartnerEventPlaceholder_23WVg {
+	background-color: var(--GreenBG);
+}
+
 .appactivityday_PartnerEventTextOnly_3QRf- {
 	border: none;
-	background: none;
+	background: var(--GreenBG);
 }
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
 	border: none;
-	background: none;
+	background: var(--GreenBG);
 }
 .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
 	color: var(--Label);
@@ -1449,18 +1462,37 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
 	border: none;
-	background: var(--GreenBG);
+	background: none;
+	transition: none;
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
 	border: none;
 	background: none;
+	transition: none;
 }
 
-.appactivityday_PartnerEventLargeImage_Container_Libri {
+.appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
 	background: none;
+	color: var(--LightGreenBG);
+	border: 2px dashed var(--LightGreenBG);
+}
+.appactivityday_PartnerEventLargeImage_Container_Libri {
+	background: var(--GreenBG);
 }
 .appactivityday_PartnerEventLargeImage_Container_Libri:hover {
-	background: none;
+	background: var(--GreenBG);
+}
+
+.appactivityday_PartnerEventMediumImage_Contents_2gv3E {
+	padding: 12px;
+}
+.appactivityday_PartnerEventLargeImage_Contents_2tDv0 {
+	padding: 12px;
+}
+
+.appactivityday_PartnerEventLargeUpdate_39Zk3 .appactivityday_Event_UVeN0 {
+	background: var(--GreenBG);
+	opacity: 1;
 }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
@@ -1772,6 +1804,9 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+	background: none;
+}
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh.appactivityday_UserStatus_Yo3XX {
 	background: none;
 }
 
@@ -2200,4 +2235,8 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
     z-index: 12;
     background-image: none;
     background-clip: padding-box;
+}
+
+.library_Container_3xRRJ *::-webkit-scrollbar-corner, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
+	background-color: var(--LightGreenBG);
 }
