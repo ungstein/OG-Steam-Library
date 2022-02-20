@@ -1544,6 +1544,9 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 .appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
 	color: var(--Label);
 }
+.appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
+	border: 2px dashed var(--LightGreenBG);
+}
 .appdetailstradingcardssection_CardsLeft_2H1Mi {
 	color: var(--Label);
 }
