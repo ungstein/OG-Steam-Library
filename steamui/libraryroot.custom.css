@@ -1482,6 +1482,15 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	color: var(--LightGreenBG);
 	border: 2px dashed var(--LightGreenBG);
 }
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndRule_1AZdy {
+	background-color: none;
+	box-shadow: 0 -1px 0 var(--BorderDark) !important;
+	border-top: 1px solid var(--BorderBright);
+}
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndText_3jmKN {
+	color: var(--Label);
+}
+
 .appactivityday_PartnerEventLargeImage_Container_Libri {
 	background: var(--GreenBG);
 }
