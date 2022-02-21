@@ -1583,6 +1583,9 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentsLabel_2EyEa {
 	color: var(--Label);
 }
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k:hover .appdetailsreviewsection_CommentIcon_szq-Q {
+	fill: White;
+}
 .appdetailsreviewsection_PlayedForTime_BDa6l {
 	color: var(--Label);
 }
