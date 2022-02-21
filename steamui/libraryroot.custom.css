@@ -1532,6 +1532,15 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	border-top: 1px solid var(--BorderBright);
 }
 
+.appdetailsfriendssection_Subsection_39bm0 .appdetailsfriendssection_SubsectionHeader_nTb1N {
+	color: var(--Label);
+}
+.appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_Artist_3NeZL {
+	color: var(--Label);
+}
+.appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_TracksDetails_3Yvj5 {
+	color: var(--Label);
+}
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
 	color: White;
 }
