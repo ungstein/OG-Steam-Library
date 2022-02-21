@@ -1527,6 +1527,9 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
+	color: var(--DisabledText1);
+}
 .appdetailsachievementssection_UnachievedSection_3ca11.appdetailsachievementssection_ShowDivider_3i6Pc {
 	box-shadow: 0 -1px 0 var(--BorderDark) !important;
 	border-top: 1px solid var(--BorderBright);
