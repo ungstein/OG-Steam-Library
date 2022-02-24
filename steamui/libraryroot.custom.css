@@ -391,6 +391,10 @@ button.DialogButton.Primary:enabled:hover:active {
 .gamelistsearchbar_Container_20QAC:hover .gamelistsearchbar_AdvancedSearchContainer_vCCmY:hover .gamelistsearchbar_AdvancedSearchButton_1TxHd:hover svg path {
 	fill: White;
 }
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
+	fill: var(--LightGreenBG);
+	-webkit-mask-image: linear-gradient(to right, rgba(14, 14, 14, 0.2) 0%, black 0%);
+}
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
     background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
