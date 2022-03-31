@@ -1,6 +1,10 @@
 # OG-Steam-Library
 
-+*Update 31/03/2022*+
++*Update 2, 31/03/2022*+
+
+<a href=https://steamcommunity.com/groups/SteamClientBeta/discussions/3/3180111663688488908/>Turns out the latest Steam beta has broken all popup windows. We'll just have to wait for an update.</a>
+
++*Update, 31/03/2022*+
 
 On 28/03/2022, an update to Steam caused SteamFriendsPatcher to stop working. It was discovered that this was caused by changes to CSS filenames. Luckily the problem can be fixed easily. You will need to open Settings in SteamFriendsPatcher, then change "Library CSS" from "0.css" to "7.css". There is a forum thread on the OG Skin 2004 Steam Commmunity page, which can be found here <a href="https://steamcommunity.com/groups/og-skin/discussions/1/3187992943275121931/">here.</a>
 
