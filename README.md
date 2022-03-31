@@ -26,8 +26,8 @@ Installing
 Uninstalling
 -
 
-* Make sure SteamFriendsPatcher is not set to run on startup (Settings > uncheck "Start with Windows")
-* Delete the **steamui** folder, then restart Steam. This will force Steam to download an extract the current Steam package, giving you the original Library files.
+* Exit SteamFriendsPatcher. Make sure SteamFriendsPatcher is not set to run on startup (Settings > uncheck "Start with Windows")
+* Delete the **steamui** folder, then restart Steam. This will force Steam to download and extract the current Steam package, giving you the original Library files.
   
 Preview
 -
