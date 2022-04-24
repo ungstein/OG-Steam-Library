@@ -366,6 +366,33 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: White;
 }
 
+.artworkmodal_ArtworkModal_36VpV {
+	border: none;
+}
+
+.artworkmodal_ModalBox_1Lfu7 {
+	background: var(--GreenBG);
+}
+.artworkmodal_ArtworkModalContainer_bAmL1 {
+	margin-top: 2px;
+	background: var(--GreenBG);
+	-webkit-mask-image: none;
+}
+.sharedialog_ShareButton_1FFkd {
+    border-style: solid;
+	border-width: 1px;
+	background-color: var(--GreenBG);
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.sharedialog_ShareButton_1FFkd:hover {
+	background-color: var(--GreenBG);
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+}
+.sharedialog_ShareButton_1FFkd:active {
+	background-color: var(--GreenBG);
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+}
+
 
 
 /* Library List ----------------------------------------------------------------------------------------------------------*/
