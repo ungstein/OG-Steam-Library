@@ -219,6 +219,11 @@ button.DialogButton.Primary:enabled:hover:active {
 .Destructive .ModalPosition_TopBar {
 	background: none;
 }
+
+.ModalDialogPopup .ModalDialogBody .title-area {
+	height: 16px;
+}
+
 .ModalPosition_Content {
 	color: var(--Label);
 }
@@ -2276,7 +2281,7 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 
 ::-webkit-scrollbar {
 	width: 18px;
-	background: transparent;
+	background: var(--GreenBG);
 }
 ::-webkit-scrollbar-corner {
 	background: transparent;
