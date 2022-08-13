@@ -334,7 +334,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .DialogTextInputBase, ._DialogInputContainer {
     background: var(--DarkGreenBG);
 }
-.DialogTextInputBase. ._DialogInputContainer:focus {
+.DialogTextInputBase, ._DialogInputContainer:focus {
     background: var(--DarkGreenBG);
 }
 .DialogTextInputBase:not(:disabled) {
@@ -1191,7 +1191,7 @@ width: 12px;
 
 
 .collectionview_OuterContainer_2sNr7 {
-	background: var(--DarkGreenBG); }
+	background: var(--DarkGreenBG); 
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
@@ -2042,7 +2042,6 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
 	border: none;
 	background: transparent;
-	margin-left:
 }
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL.downloads_Dragging_3-SbB {
     margin-left: 0px;
