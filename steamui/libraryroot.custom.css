@@ -71,7 +71,6 @@ button.DialogButton {
 }
 
 button.DialogButton::before {
-	box-shadow: none;
 	transition: none;
 }
 
@@ -136,7 +135,6 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-radius: 0px;
 	color: #fff;
 	padding: 6px 8px;
-	box-shadow: none;
 	max-width: 300px;
 	user-select: none;
 	border-style: solid;
@@ -151,7 +149,6 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-radius: 0px;
 	color: #fff;
 	padding: 6px 8px;
-	box-shadow: none;
 	max-width: 300px;
 	user-select: none;
 	border-style: solid;
@@ -414,9 +411,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .gamelisthome_Label_3O48L {
 	color: var(--Label);
 }
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-	color: var(--Label);
-}
+
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
 	fill: var(--Label);
 }
@@ -455,15 +450,21 @@ button.DialogButton.Primary:enabled:hover:active {
 	background: var(--OffWhite);
 }
 
+.gamelistdropdown_Bar_1ZS_x {
+	padding: 0px 6px 0px;
+}
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
 	background-color: var(--DarkGreenBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--LightGreenBG);
+	color: var(--Label);
 }
-.gamelistdropdown_Bar_1ZS_x {
-	padding: 0px 6px 0px;
+
+.pagedsettings_PagedSettingsDialog_Title_3qEgQ {
+	color: var(--Maize);
 }
+
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
 	color: #fff;
@@ -1107,7 +1108,6 @@ width: 12px;
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
 	box-sizing: border-box;
 	padding: 0px;
-	box-shadow: none !important;
 	border: 0.5px solid var(--LightGreenBG);
 	border-radius: 0;
 	background: var(--DarkGreenBG) !important;
@@ -1168,15 +1168,15 @@ width: 12px;
 	background-color: var(--LightGreenBG);
 }
 
-.smartscrollcontainer_ScrollToTopButton_1J21t {
+.smartscrollcontainer_ScrollToTopButton_1bCHN {
 	font-size: 12px;
 	color: #fff;
 }
-.smartscrollcontainer_ScrollToTopButton_1J21t:hover.smartscrollcontainer_Visible_28ZR8 {
+.smartscrollcontainer_ScrollToTopButton_1bCHN:hover.smartscrollcontainer_Visible_2ZDSm {
     filter: none;
 }
 
-.smartscrollcontainer_ScrollToTopButton_1J21t div {
+.smartscrollcontainer_ScrollToTopButton_1bCHN div {
 	background: var(--GreenBG);
 	border-style: solid;
 	border-width: 1px;
@@ -1311,20 +1311,16 @@ width: 12px;
 	background: var(--GreenBG);
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
-	background: var(--DarkGreenBG);
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+	background: var(--GreenBG);
 	box-sizing: border-box;
-	border-style: solid;
-	border-width: 0.1px;
-	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+	border: none;
 	min-width: 140px;
 	max-width: 220px;
 	padding-left: 24px;
 	padding-right: 24px;
 	padding-top: 40px;
-	margin-left: 23px;
-	margin-top: 23px;
-	margin-bottom: 23px;
+	margin: 0px;
 }
 
 .pagedsettings_PagedSettingsDialog_Title_2rjVT {
@@ -1820,7 +1816,6 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-radius: 0px;
 }
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
-	box-shadow: none !important;
     border-radius: 0px;
 }
 
