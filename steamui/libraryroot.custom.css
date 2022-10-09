@@ -49,6 +49,7 @@ body.shared_common_v6_2Lxgd {
 
 button.DialogButton {
 	background: var(--GreenBG) !important;
+	box-shadow: none !important;
 	color: #fff;
 	font-size: 12px;	
 	box-sizing: border-box;
@@ -72,11 +73,13 @@ button.DialogButton {
 
 button.DialogButton::before {
 	transition: none;
+	box-shadow: none !important;
 }
 
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover {
 	background: var(--GreenBG);
+	box-shadow: none !important;
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -621,13 +624,24 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .DialogCheckbox {
-  width: 16px;
-  height: 16px;
-  background-color: var(--DarkGreenBG);
-  box-shadow: inset 1px 0.5px 3px rgba(1, 1, 1, 0.4);
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark); }	
+	width: 16px;
+	height: 16px;
+	background-color: var(--DarkGreenBG);
+	box-shadow: inset 1px 0.5px 3px rgba(1, 1, 1, 0.4);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+}	
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppSelected_2qURX .DialogCheckbox {
+	width: 16px;
+	height: 16px;
+	background-color: var(--DarkGreenBG);
+	box-shadow: inset 1px 0.5px 3px rgba(1, 1, 1, 0.4);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);	
+}
 
 .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled),
 .DialogCheckbox:hover:not(.Disabled),
@@ -2175,6 +2189,10 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	margin-right: 2px;
 }
 
+.contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
+	color: var(--Label);
+}
+
 .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
 .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I,
 .contentmanagement_IsSelected_3VQeL svg {
@@ -2242,6 +2260,9 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 .contentmanagement_AddFolder_3C0_9 {
 	height: 32px;
+}
+.contentmanagement_AddFolder_3C0_9 svg {
+	color: var(--Label);
 }
 
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
