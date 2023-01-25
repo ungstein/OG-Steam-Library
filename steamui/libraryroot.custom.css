@@ -332,22 +332,22 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .DialogTextInputBase, ._DialogInputContainer:focus {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .DialogTextInputBase:not(:disabled) {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .DialogTextInputBase:not(:disabled):hover {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .DialogTextInputBase:disabled {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .DialogTextInputBase:disabled:hover {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 
 .DialogDropDown_Arrow {
@@ -357,10 +357,10 @@ button.DialogButton.Primary:enabled:hover:active {
 	fill: var(--Label);
 }
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
-    background: var(--DarkGreenBG);
+	background: var(--DarkGreenBG);
 }
 .dropdown_DialogDropDownMenu_Item_2oAiZ:hover {
-    background: var(--MaizeBG);
+	background: var(--MaizeBG);
 }
 .appproperties_OptionDescription_q2l4w {
 	color: White;
@@ -379,7 +379,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	-webkit-mask-image: none;
 }
 .sharedialog_ShareButton_1FFkd {
-    border-style: solid;
+	border-style: solid;
 	border-width: 1px;
 	background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -409,7 +409,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa {
-    background-color: var(--DarkGreenBG);
+	background-color: var(--DarkGreenBG);
 }
 .gamelisthome_Label_3O48L {
 	color: var(--Label);
@@ -426,27 +426,27 @@ button.DialogButton.Primary:enabled:hover:active {
 	-webkit-mask-image: linear-gradient(to right, rgba(14, 14, 14, 0.2) 0%, black 0%);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx:hover {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx:active {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .gamelisthome_Bar_3pSPl {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl:hover {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl:active {
-    background-color: var(--GreenBG);
+	background-color: var(--GreenBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
@@ -459,7 +459,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
 	background-color: var(--DarkGreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--LightGreenBG);
 	color: var(--Label);
 }
@@ -468,28 +468,27 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: var(--Maize);
 }
 
-
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
 	color: #fff;
 	background-color: var(--DarkGreenBG);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
-    background-color: var(--GreenBG);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	background-color: var(--GreenBG);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:hover {
-    background-color: var(--GreenBG);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
+	background-color: var(--GreenBG);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:active {
-    background-color: var(--GreenBG);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+	background-color: var(--GreenBG);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 	transition: none;
 }
 
@@ -647,7 +646,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .DialogCheckbox:hover:not(.Disabled),
 .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
 .DialogCheckbox:focus:not(.Disabled) {
-  background-color: var(--DarkGreenBG);
+	background-color: var(--DarkGreenBG);
 }
 
 .gamelistsectionheader_Container_2sYIg {
@@ -664,7 +663,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	background: var(--BorderDark);
 }
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs:hover {
-    background: var(--BorderDark);
+	background: var(--BorderDark);
 }
 
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs .gamelistsectionheader_SectionHeaderContent_3cV3O {
@@ -783,34 +782,34 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG) !important;
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb:hover {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG);
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb:active {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG);
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 .library_Container_3xRRJ *::-webkit-scrollbar, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
 	width: 18px;
@@ -818,36 +817,36 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG) !important;
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG);
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:active, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:active {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG);
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 
 .library_LibraryWindowDivider_276E6 {
@@ -912,13 +911,13 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageLeft_3uMa3 {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    opacity: .8;
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 4px 0px 4px 4px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	opacity: .8;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 4px 0px 4px 4px;
 	background-color: var(--GreenBG);
 	border-style: solid;
 	border-width: 1px;
@@ -926,13 +925,13 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageRight_2kWWy {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    opacity: .8;
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 4px 4px 4px 0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	opacity: .8;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 4px 4px 4px 0px;
 	background-color: var(--GreenBG);
 	border-style: solid;
 	border-width: 1px;
@@ -940,13 +939,13 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageLeft_3uMa3:active {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    opacity: .8;
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 4px 0px 4px 4px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	opacity: .8;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 4px 0px 4px 4px;
 	background-color: var(--GreenBG);
 	border-style: solid;
 	border-width: 1px;
@@ -955,12 +954,12 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageRight_2kWWy:active {
 	width: 20px;
-    height: 20px;
-    cursor: pointer;
-    opacity: .8;
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 4px 4px 4px 0px;
+	height: 20px;
+	cursor: pointer;
+	opacity: .8;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 4px 4px 4px 0px;
 	background-color: var(--GreenBG);
 	border-style: solid;
 	border-width: 1px;
@@ -1046,7 +1045,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
-    color: var(--Maize);
+	color: var(--Maize);
 	padding: 0px;
 }
 
@@ -1075,7 +1074,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	margin-bottom: 0px;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar {
-width: 12px;
+	width: 12px;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb {
 	width: 4px;
@@ -1187,7 +1186,7 @@ width: 12px;
 	color: #fff;
 }
 .smartscrollcontainer_ScrollToTopButton_1bCHN:hover.smartscrollcontainer_Visible_2ZDSm {
-    filter: none;
+	filter: none;
 }
 
 .smartscrollcontainer_ScrollToTopButton_1bCHN div {
@@ -1387,7 +1386,7 @@ width: 12px;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopBottomRow_Rl0De .appproperties_UnsubscribeSelected_1TUEz {
 	color: White;
-    padding: 4px 8px;
+	padding: 4px 8px;
 }
 
 
@@ -1725,7 +1724,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:hover {
@@ -1830,21 +1829,21 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-radius: 0px;
 }
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
-    border-radius: 0px;
+	border-radius: 0px;
 }
 
 
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
-    content: "";
-    box-shadow: inset 1px 1px 12px #000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    user-select: none;
-    border-radius: 3px;
+	content: "";
+	box-shadow: inset 1px 1px 12px #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	user-select: none;
+	border-radius: 3px;
 }
 
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
@@ -2003,7 +2002,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	background-color: var(--Maize);
 }
 .downloads_SectionItem_1VNuY:hover .downloads_ProgressBar_1vMU1 {
-    background-color: Black;
+	background-color: Black;
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp {
@@ -2053,10 +2052,10 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	background: transparent;
 }
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL.downloads_Dragging_3-SbB {
-    margin-left: 0px;
-    margin-right: 18px;
-    padding-left: 24px;
-    overflow-y: hidden;
+	margin-left: 0px;
+	margin-right: 18px;
+	padding-left: 24px;
+	overflow-y: hidden;
 }
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
 	color: var(--Label)
@@ -2065,21 +2064,21 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .downloads_SectionItem_1VNuY:hover,
 .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
 	border: none;
-    background: transparent;
+	background: transparent;
 }
 
 .gpfocus .downloads_SectionItem_1VNuY,
 .downloads_SectionItem_1VNuY.gpfocus {
-    background-color: transparent;
+	background-color: transparent;
 }
 .gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL,
 .downloads_SectionItem_1VNuY.gpfocus.downloads_Active_IbePL {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
 	box-shadow: 0 -1px 0 var(--BorderDark) !important;
-    border-top: 1px solid var(--BorderBright);
+	border-top: 1px solid var(--BorderBright);
 }
 
 .downloads_Active_IbePL .downloads_SectionList_OINnO {
@@ -2102,7 +2101,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
 	background: var(--GreenBG);
-    border: 1px solid;
+	border: 1px solid;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	padding-left: 24px;
 	overflow-y: hidden;
@@ -2114,8 +2113,8 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 .downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
 	border-style: solid;
-    border-width: 1px;
-    border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
+	border-width: 1px;
+	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .appportrait_PortraitImage_2IYf7 {
 	transition: none;
@@ -2130,7 +2129,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 .downloads_AutoUpdateHours_117rQ:hover .downloads_UpdateHours_34F9w,
 .downloads_AutoUpdateHours_117rQ:hover.downloads_NoHours_Sil68 {
-    color: White;
+	color: White;
 }
 
 .downloads_SectionJumpBar_mw7VZ {
@@ -2144,13 +2143,13 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 
 .contentmanagement_Header_3ol0F {
-    padding: 0px 10px;
+	padding: 0px 10px;
 }
 
 .contentmanagement_LibraryContent_ybEU2 {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	padding: 16px;
 	margin-top: -1px;
@@ -2177,7 +2176,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	padding: 0px 6px;
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
 	margin-right: 4px;
 	margin-bottom: 1px;
@@ -2235,7 +2234,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .contentmanagement_IsSelected_3VQeL {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	position: relative;
 	z-index: 1;
@@ -2248,13 +2247,13 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .contentmanagement_InstallFolder_12aBP:hover {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
 }
 .contentmanagement_InstallFolder_12aBP:focus {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
 }
 
@@ -2272,14 +2271,14 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .contentmanagement_DriveSettingsButton_1WKUO, .contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	margin-right: -8px;
 }
 .contentmanagement_DriveSettingsButton_1WKUO:active {
 	background: var(--GreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 	margin-right: -8px;
 }
@@ -2295,7 +2294,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 .contentmanagement_LibraryContent_ybEU2 .contentmanagement_AppsGrid_2n6FN {
 	background: var(--DarkGreenBG);
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
@@ -2329,24 +2328,24 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 	background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG) !important;
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px !important;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 ::-webkit-scrollbar-thumb:hover {
-    min-height: 100px;
+	min-height: 100px;
 	background: var(--GreenBG) !important;
-    border: 1px solid;
+	border: 1px solid;
 	border-radius: 0px !important;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    z-index: 12;
-    background-image: none;
-    background-clip: padding-box;
+	z-index: 12;
+	background-image: none;
+	background-clip: padding-box;
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-corner, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
