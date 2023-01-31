@@ -10,7 +10,7 @@ On 28/03/2022, an update to Steam caused SteamFriendsPatcher to stop working. It
 
 ---
 
-Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>. A lot of unnecessary padding as been removed to free up screen real estate. Transitions and gradients have also been removed.
+Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/PhantomGamers/SFP">SFP<a> (Previously <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher</a>). A lot of unnecessary padding as been removed to free up screen real estate. Transitions and gradients have also been removed.
 
 Update: Live version now available <a href="https://ungstein.github.io/og-steam-library/og-steam-library-live.zip">here!</a>
 This version loads up-to-date files live from GitHub; no files are saved to your computer. If the live version does not appear to be updating, please try deleting Steam's browser cache under `Settings/Web Browser`, then restart Steam.
@@ -18,15 +18,14 @@ This version loads up-to-date files live from GitHub; no files are saved to your
 Installing
 -
 
-* Make sure SteamFriendsPatcher.exe is running.
-* Make sure Steam Beta is checked in SteamFriendsPatcher Settings.
+* Make sure SFP_UI.exe is running.
 * Copy the **steamui** folder into your Steam installation folder (e.g. "C:\Program Files (x86)\Steam").
 * Optional webkit.css can be placed in skins\OG-Steam\resource to remove additional fluff such as What's New, Ratings, Add to Activity Feed and Trading Cards.
 
 Uninstalling
 -
 
-* Exit SteamFriendsPatcher. Make sure SteamFriendsPatcher is not set to run on startup (Settings > uncheck "Start with Windows")
+* Exit SFP. Make sure SFP is not set to run on startup (Settings > uncheck "Start with Windows")
 * Delete the **steamui** folder, then restart Steam. This will force Steam to download and extract the current Steam package, giving you the original Library files.
   
 Preview
