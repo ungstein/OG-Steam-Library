@@ -10,7 +10,7 @@ On 28/03/2022, an update to Steam caused SteamFriendsPatcher to stop working. It
 
 ---
 
-Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>. A lot of unnecessary padding as been removed to free up screen real estate. Transitions and gradients have also been removed.
+Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/PhantomGamers/SFP">SFP</a> (Previously <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>). A lot of unnecessary padding as been removed to free up screen real estate. Transitions and gradients have also been removed.
 
 Update: Live version now available <a href="https://ungstein.github.io/og-steam-library/og-steam-library-live.zip">here!</a>
 This version loads up-to-date files live from GitHub; no files are saved to your computer. If the live version does not appear to be updating, please try deleting Steam's browser cache under `Settings/Web Browser`, then restart Steam.
