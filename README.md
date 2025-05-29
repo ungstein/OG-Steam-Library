@@ -1,5 +1,13 @@
 # OG-Steam-Library
 
++*Update 3, 29/05/2025*+
+
+After several years of inactivity, I have decided to suspend this project indefinitely. Part of me was hoping that Valve would either officially support skins, or stop messing with classes, neither of which have happened.
+I would like to thank <a href=https://github.com/MapleAtMorning/>Maple</a> for creating <a href=https://github.com/MapleAtMorning/OldSteam-Theme/>OldSteam-Theme</a>, which I consider to be the spiritual successor to both <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/ungstein/OG-Steam-Library">OG-Steam-Library</a>. Unfortunately, it appears that this project has also been indefinitely suspended, due to study commitments. It has been a fun journey, seeing this old green skin live on for much longer than Valve had planned. Maybe once SteamOS takes over the world, we will once again have custom skins. Until then, green Steam will live on in our memories.
+Thank you to those who used my skins, I hope you got kick out of them.
+
+*- Ungstein*
+
 +*Update 2, 31/03/2022*+
 
 <a href=https://steamcommunity.com/groups/SteamClientBeta/discussions/3/3180111663688488908/>Turns out the latest Steam beta has broken all popup windows. We'll just have to wait for an update.</a>
